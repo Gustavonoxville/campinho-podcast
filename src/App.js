@@ -109,7 +109,7 @@ const playerData = () => {
   const players = playersList.map((player, index) => ({
     id: player.id,
     top: 740 + Math.floor(index / 15) * 110 + 30, // Ajuste para quebrar a linha a cada 15 jogadores
-    left: (index % 15) * 80 + 270, // Ajuste para posicionar os jogadores na linha correta
+    left: (index % 15) * 80 + 250, // Ajuste para posicionar os jogadores na linha correta
     name: player.nome,
     image: player.imagem,
   }));
