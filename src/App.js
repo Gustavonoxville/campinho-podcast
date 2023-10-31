@@ -41,10 +41,11 @@ import semft from './jogadores/semft.png';
 import digao from './jogadores/digao.png';
 
 const containerStyle = {
-  width: '1400px',
-  height: '1100px',
+  width: '1550px',
+  height: '1300px',
   position: 'center',
   margin: 'auto',
+  backgroundColor: 'rgb(13, 120, 71)',
 };
 
 const playerStyle = {
@@ -77,7 +78,7 @@ const playersList = [
   { id: 11, nome: "PH", imagem: ph },
   { id: 12, nome: "Gabriel D.", imagem: gabrieldias},
   { id: 13, nome: "Jefferson", imagem: jefferson },
-  { id: 14, nome: "Piton", imagem: piton},
+  { id: 14, nome: "Lucas Piton", imagem: piton},
   { id: 15, nome: "Riquelme", imagem: riquelme },
   { id: 16, nome: "Medel", imagem: medel},
   { id: 17, nome: "Mateus C.", imagem: cocao },
@@ -108,8 +109,8 @@ const playersList = [
 const playerData = () => {
   const players = playersList.map((player, index) => ({
     id: player.id,
-    top: 740 + Math.floor(index / 15) * 110 + 30, // Ajuste para quebrar a linha a cada 15 jogadores
-    left: (index % 15) * 80 + 250, // Ajuste para posicionar os jogadores na linha correta
+    top: 850 + Math.floor(index / 15) * 150 + 30, // Ajuste para quebrar a linha a cada 15 jogadores
+    left: (index % 15) * 100 + 180, // Ajuste para posicionar os jogadores na linha correta
     name: player.nome,
     image: player.imagem,
   }));
@@ -142,7 +143,7 @@ const DraggablePlayer = ({ id, left, top, name, image }) => {
   return (
     <div ref={drag} style={{ ...playerStyle, left, top, opacity: isDragging ? 0.5 : 1 }}>
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-        <div style={{ width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden' }}>
+        <div style={{ width: '95px', height: '95px', borderRadius: '50%', overflow: 'hidden' }}>
           <img src={image} alt={name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
         </div>
         <div style={playerNameStyle}>
@@ -198,7 +199,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+     <div className="App" style={{ backgroundColor: 'rgb(0, 96, 0)', margin: 0, padding: 0, overflow: 'hidden' }}>
       <DndProvider backend={HTML5Backend}>
         <Field />
       </DndProvider>
