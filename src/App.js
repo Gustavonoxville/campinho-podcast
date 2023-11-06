@@ -39,6 +39,17 @@ import zegabriel from './jogadores/zegabriel.png';
 import zevitor from './jogadores/zevitor.png';
 import semft from './jogadores/semft.png';
 import digao from './jogadores/digao.png';
+import c1 from './jogadores/1.svg';
+import c2 from './jogadores/2.svg';
+import c3 from './jogadores/3.svg';
+import c4 from './jogadores/4.svg';
+import c5 from './jogadores/5.svg';
+import c6 from './jogadores/6.svg';
+import c7 from './jogadores/7.svg';
+import c8 from './jogadores/8.svg';
+import c9 from './jogadores/9.svg';
+import c10 from './jogadores/10.svg';
+import c11 from './jogadores/11.svg';
 
 const containerStyle = {
   width: '1550px',
@@ -78,7 +89,7 @@ const playersList = [
   { id: 11, nome: "PH", imagem: ph },
   { id: 12, nome: "Gabriel D.", imagem: gabrieldias},
   { id: 13, nome: "Jefferson", imagem: jefferson },
-  { id: 14, nome: "Lucas Piton", imagem: piton},
+  { id: 14, nome: "Piton", imagem: piton},
   { id: 15, nome: "Riquelme", imagem: riquelme },
   { id: 16, nome: "Medel", imagem: medel},
   { id: 17, nome: "Mateus C.", imagem: cocao },
@@ -103,6 +114,18 @@ const playersList = [
   { id: 36, nome: "???", imagem: semft},
   { id: 37, nome: "???", imagem: semft},
   { id: 38, nome: "Digão", imagem: digao},
+  { id: 39, nome: "", imagem: c1},
+  { id: 40, nome: "", imagem: c2},
+  { id: 41, nome: "", imagem: c3},
+  { id: 42, nome: "", imagem: c4},
+  { id: 43, nome: "", imagem: c5},
+  { id: 44, nome: "", imagem: c6},
+  { id: 45, nome: "", imagem: c7},
+  { id: 46, nome: "", imagem: c8},
+  { id: 47, nome: "", imagem: c9},
+  { id: 48, nome: "", imagem: c10},
+  { id: 49, nome: "", imagem: c11},
+
  
 ];
 
@@ -130,7 +153,7 @@ const DraggablePlayer = ({ id, left, top, name, image }) => {
   const playerNameStyle = {
     marginTop: '0px',
     textShadow: '0 0 2px #000',
-    fontSize: '14px',
+    fontSize: '18px',
     fontWeight: 'bold',
     color: 'white', 
     textAlign: 'center',
@@ -196,6 +219,7 @@ const Field = () => {
 function App() {
   useEffect(() => {
     document.title = "CampinhoPodcast"; 
+    document.body.style.background = "rgb(0, 96, 0)";
   }, []);
 
   return (
