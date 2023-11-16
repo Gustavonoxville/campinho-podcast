@@ -50,6 +50,17 @@ import c8 from './jogadores/8.svg';
 import c9 from './jogadores/9.svg';
 import c10 from './jogadores/10.svg';
 import c11 from './jogadores/11.svg';
+import v1 from './jogadores/numbers2/1.svg';
+import v2 from './jogadores/numbers2/2.svg';
+import v3 from './jogadores/numbers2/3.svg';
+import v4 from './jogadores/numbers2/4.svg';
+import v5 from './jogadores/numbers2/5.svg';
+import v6 from './jogadores/numbers2/6.svg';
+import v7 from './jogadores/numbers2/7.svg';
+import v8 from './jogadores/numbers2/8.svg';
+import v9 from './jogadores/numbers2/9.svg';
+import v10 from './jogadores/numbers2/10.svg';
+import v11 from './jogadores/numbers2/11.svg';
 
 const containerStyle = {
   width: '1550px',
@@ -125,7 +136,17 @@ const playersList = [
   { id: 47, nome: "", imagem: c9},
   { id: 48, nome: "", imagem: c10},
   { id: 49, nome: "", imagem: c11},
-
+  { id: 50, nome: "", imagem: v1},
+  { id: 51, nome: "", imagem: v2},
+  { id: 52, nome: "", imagem: v3},
+  { id: 53, nome: "", imagem: v4},
+  { id: 54, nome: "", imagem: v5},
+  { id: 55, nome: "", imagem: v6},
+  { id: 56, nome: "", imagem: v7},
+  { id: 57, nome: "", imagem: v8},
+  { id: 58, nome: "", imagem: v9},
+  { id: 59, nome: "", imagem: v10},
+  { id: 60, nome: "", imagem: v11},
  
 ];
 
