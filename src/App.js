@@ -4,12 +4,12 @@ import { HTML5Backend } from 'react-dnd-html5-backend';
 import campoImage from './field2.svg';
 
 import capasso from './jogadores/capasso.png';
-import bambu from './jogadores/bambu.png';
+import jv from './jogadores/jv.png';
 import barros from './jogadores/barros.png';
 import cocao from './jogadores/cocao.png';
 import erick from './jogadores/erick.png';
 import figueiredo from './jogadores/figueiredo.png';
-import gabrieldias from './jogadores/gabrieldias.png';
+import rojas from './jogadores/rojas.png';
 import halls from './jogadores/halls.png';
 import ivan from './jogadores/ivan.png';
 import jair from './jogadores/jair.png';
@@ -33,7 +33,7 @@ import riquelme from './jogadores/riquelme.png';
 import rossi from './jogadores/rossi.png';
 import sebas from './jogadores/sebas.png';
 import serginho from './jogadores/serginho.png';
-import texeira from './jogadores/texeira.png';
+import mumu from './jogadores/mumu.png';
 import vegetti from './jogadores/vegetti.png';
 import zegabriel from './jogadores/zegabriel.png';
 import zevitor from './jogadores/zevitor.png';
@@ -88,43 +88,43 @@ const ItemTypes = {
 
 const playersList = [
   { id: 1, nome: "Jardim", imagem: jardim },
-  { id: 2, nome: "Ivan", imagem: ivan},
+  /*{ id: 2, nome: "Ivan", imagem: ivan},*/
   { id: 3, nome: "Halls", imagem: halls },
   { id: 4, nome: "Maicon", imagem: maicon},
-  { id: 5, nome: "Robson", imagem: bambu },
+  { id: 5, nome: "J. Victor", imagem: jv },
   { id: 6, nome: "Capasso", imagem: capasso},
   { id: 7, nome: "Léo", imagem: leo },
   { id: 8, nome: "Zé Vitor", imagem: zevitor},
   { id: 9, nome: "Miranda", imagem: miranda },
   { id: 10, nome: "Puma", imagem: puma},
   { id: 11, nome: "PH", imagem: ph },
-  { id: 12, nome: "Gabriel D.", imagem: gabrieldias},
-  { id: 13, nome: "Jefferson", imagem: jefferson },
+  { id: 12, nome: "R. Rojas", imagem: rojas},
+  /*{ id: 13, nome: "Jefferson", imagem: jefferson },*/
   { id: 14, nome: "Piton", imagem: piton},
-  { id: 15, nome: "Riquelme", imagem: riquelme },
+  /*{ id: 15, nome: "Riquelme", imagem: riquelme },*/
   { id: 16, nome: "Medel", imagem: medel},
   { id: 17, nome: "Mateus C.", imagem: cocao },
   { id: 18, nome: "Barros", imagem: barros},
   { id: 19, nome: "Zé Gabriel", imagem: zegabriel },
   { id: 20, nome: "Payet", imagem: payet},
-  { id: 21, nome: "Praxedes", imagem: praxedes },
+  /*{ id: 21, nome: "Praxedes", imagem: praxedes },*/
   { id: 22, nome: "Paulinho", imagem: paulinho},
   { id: 23, nome: "Jair", imagem: jair },
   { id: 24, nome: "Marlon", imagem: marlongomes},
   { id: 25, nome: "Rossi", imagem: rossi },
   { id: 26, nome: "Vegetti", imagem: vegetti},
-  { id: 27, nome: "Sebastian", imagem: sebas},
+  /*{ id: 27, nome: "Sebastian", imagem: sebas},*/
   { id: 28, nome: "Serginho", imagem: serginho},
   { id: 29, nome: "Orellano", imagem: orellano},
-  { id: 30, nome: "A. Texeira", imagem: texeira},
   { id: 31, nome: "Rayan", imagem: rayan},
   { id: 32, nome: "Erick M.", imagem: erick},
   { id: 33, nome: "Figueiredo", imagem: figueiredo},
   { id: 34, nome: "Pec", imagem: pec},
-  { id: 35, nome: "???", imagem: semft},
-  { id: 36, nome: "???", imagem: semft},
-  { id: 37, nome: "???", imagem: semft},
+  { id: 35, nome: "", imagem: semft},
+  { id: 36, nome: "", imagem: semft},
+  { id: 37, nome: "", imagem: semft},
   { id: 38, nome: "Digão", imagem: digao},
+  { id: 30, nome: "Mumuzinho", imagem: mumu},
   { id: 39, nome: "", imagem: c1},
   { id: 40, nome: "", imagem: c2},
   { id: 41, nome: "", imagem: c3},
