@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/campinho-podcast/static/css/main.e6c13ad2.css",
-    "main.js": "/campinho-podcast/static/js/main.3ce66b52.js",
+    "main.js": "/campinho-podcast/static/js/main.353dd660.js",
     "static/js/787.bf6eab5d.chunk.js": "/campinho-podcast/static/js/787.bf6eab5d.chunk.js",
     "static/media/field2.svg": "/campinho-podcast/static/media/field2.631b1eff66d63437ca7ca81652c81944.svg",
     "static/media/mumu.png": "/campinho-podcast/static/media/mumu.e0667e42259e8b3e32a0.png",
-    "static/media/jv.png": "/campinho-podcast/static/media/jv.3ce97c560ab18f7d8a94.png",
-    "static/media/rojas.png": "/campinho-podcast/static/media/rojas.6df2334d07a55b9d9e43.png",
+    "static/media/david.png": "/campinho-podcast/static/media/david.9e48c4b9905d7a072c28.png",
+    "static/media/jv.png": "/campinho-podcast/static/media/jv.e7ee03f65fc3629eda9c.png",
     "static/media/digao.png": "/campinho-podcast/static/media/digao.d152a3eebc2dae9ed4b2.png",
+    "static/media/rojas.png": "/campinho-podcast/static/media/rojas.0ee390323d10bf2cb1bf.png",
     "static/media/payet.png": "/campinho-podcast/static/media/payet.d80334fb2cd6b4723128.png",
     "static/media/praxedes.png": "/campinho-podcast/static/media/praxedes.7378067d5a42aa5cabe0.png",
     "static/media/jefferson.png": "/campinho-podcast/static/media/jefferson.0a896051ce5e1798aef4.png",
@@ -51,11 +52,11 @@
     "static/media/8.svg": "/campinho-podcast/static/media/8.3e387385a95b44485c6a957c13600060.svg",
     "static/media/9.svg": "/campinho-podcast/static/media/9.487107596d399f5bdf79407893a200b0.svg",
     "main.e6c13ad2.css.map": "/campinho-podcast/static/css/main.e6c13ad2.css.map",
-    "main.3ce66b52.js.map": "/campinho-podcast/static/js/main.3ce66b52.js.map",
+    "main.353dd660.js.map": "/campinho-podcast/static/js/main.353dd660.js.map",
     "787.bf6eab5d.chunk.js.map": "/campinho-podcast/static/js/787.bf6eab5d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.3ce66b52.js"
+    "static/js/main.353dd660.js"
   ]
 }
