@@ -14,7 +14,7 @@ import halls from './jogadores/halls.png';
 import ivan from './jogadores/ivan.png';
 import jair from './jogadores/jair.png';
 import jardim from './jogadores/jardim.png';
-import jefferson from './jogadores/jefferson.png';
+import juliao from './jogadores/juliao.png';
 import leo from './jogadores/leo.png';
 import maicon from './jogadores/maicon.png';
 import marlongomes from './jogadores/marlongomes.png';
@@ -29,7 +29,7 @@ import piton from './jogadores/piton.png';
 import puma from './jogadores/puma.png';
 import miranda from './jogadores/miranda.png';
 import rayan from './jogadores/rayan.png';
-import riquelme from './jogadores/riquelme.png';
+import jpm from './jogadores/jpm.png';
 import rossi from './jogadores/rossi.png';
 import sebas from './jogadores/sebas.png';
 import serginho from './jogadores/serginho.png';
@@ -99,9 +99,9 @@ const playersList = [
   { id: 10, nome: "Puma", imagem: puma, hasBorder: true},
   { id: 11, nome: "PH", imagem: ph , hasBorder: true},
   { id: 12, nome: "R. Rojas", imagem: rojas, hasBorder: true},
-  /*{ id: 13, nome: "Jefferson", imagem: jefferson, hasBorder: true },*/
+  { id: 13, nome: "Juliao", imagem: juliao, hasBorder: true },
   { id: 14, nome: "Piton", imagem: piton, hasBorder: true},
-  /*{ id: 15, nome: "Riquelme", imagem: riquelme , hasBorder: true},*/
+  { id: 15, nome: "JP Murilo", imagem: jpm , hasBorder: true},
   { id: 16, nome: "Medel", imagem: medel, hasBorder: true},
   { id: 17, nome: "Mateus C.", imagem: cocao , hasBorder: true},
   { id: 18, nome: "Barros", imagem: barros, hasBorder: true},
@@ -115,7 +115,7 @@ const playersList = [
   { id: 26, nome: "Vegetti", imagem: vegetti, hasBorder: true},
   /*{ id: 27, nome: "Sebastian", imagem: sebas, hasBorder: true},*/
   { id: 28, nome: "Serginho", imagem: serginho, hasBorder: true},
-  { id: 29, nome: "Orellano", imagem: orellano, hasBorder: true},
+  /*{ id: 29, nome: "Orellano", imagem: orellano, hasBorder: true},*/
   { id: 31, nome: "Rayan", imagem: rayan, hasBorder: true},
   { id: 32, nome: "Erick M.", imagem: erick, hasBorder: true},
   { id: 33, nome: "David", imagem: david, hasBorder: true},
@@ -124,8 +124,8 @@ const playersList = [
   { id: 35, nome: "", imagem: semft,hasBorder: false},
   { id: 36, nome: "", imagem: semft,hasBorder: false},
   { id: 37, nome: "", imagem: semft,hasBorder: false},
-  { id: 38, nome: "Digão", imagem: digao, hasBorder: true},
-  { id: 30, nome: "Mumuzinho", imagem: mumu, hasBorder: true},
+  { id: 38, nome: "", imagem: semft,hasBorder: false},
+  { id: 30, nome: "", imagem: semft,hasBorder: false},
   { id: 39, nome: "", imagem: c1, hasBorder: true},
   { id: 40, nome: "", imagem: c2, hasBorder: true},
   { id: 41, nome: "", imagem: c3, hasBorder: true},
