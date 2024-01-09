@@ -87,67 +87,67 @@ const ItemTypes = {
 };
 
 const playersList = [
-  { id: 1, nome: "Jardim", imagem: jardim ,  hasBorder: true},
-  /*{ id: 2, nome: "Ivan", imagem: ivan , hasBorder: true},*/
-  { id: 3, nome: "Halls", imagem: halls, hasBorder: true },
-  { id: 4, nome: "Maicon", imagem: maicon, hasBorder: true},
-  { id: 5, nome: "J. Victor", imagem: jv, hasBorder: true },
-  { id: 6, nome: "Capasso", imagem: capasso, hasBorder: true},
-  { id: 7, nome: "Léo", imagem: leo , hasBorder: true },
-  { id: 8, nome: "Zé Vitor", imagem: zevitor, hasBorder: true},
-  { id: 9, nome: "Miranda", imagem: miranda , hasBorder: true},
-  { id: 10, nome: "Puma", imagem: puma, hasBorder: true},
-  { id: 11, nome: "PH", imagem: ph , hasBorder: true},
-  { id: 12, nome: "R. Rojas", imagem: rojas, hasBorder: true},
-  { id: 13, nome: "Juliao", imagem: juliao, hasBorder: true },
-  { id: 14, nome: "Piton", imagem: piton, hasBorder: true},
-  { id: 15, nome: "JP Murilo", imagem: jpm , hasBorder: true},
-  { id: 16, nome: "Medel", imagem: medel, hasBorder: true},
-  { id: 17, nome: "Mateus C.", imagem: cocao , hasBorder: true},
-  { id: 18, nome: "Barros", imagem: barros, hasBorder: true},
-  { id: 19, nome: "Zé Gabriel", imagem: zegabriel, hasBorder: true },
-  { id: 20, nome: "Payet", imagem: payet, hasBorder: true},
-  { id: 21, nome: "Praxedes", imagem: praxedes, hasBorder: true },
-  { id: 22, nome: "Paulinho", imagem: paulinho, hasBorder: true},
-  { id: 23, nome: "Jair", imagem: jair, hasBorder: true },
-  { id: 24, nome: "Marlon", imagem: marlongomes, hasBorder: true},
-  { id: 25, nome: "Rossi", imagem: rossi , hasBorder: true},
-  { id: 26, nome: "Vegetti", imagem: vegetti, hasBorder: true},
-  /*{ id: 27, nome: "Sebastian", imagem: sebas, hasBorder: true},*/
-  { id: 28, nome: "Serginho", imagem: serginho, hasBorder: true},
-  /*{ id: 29, nome: "Orellano", imagem: orellano, hasBorder: true},*/
-  { id: 31, nome: "Rayan", imagem: rayan, hasBorder: true},
-  { id: 32, nome: "Erick M.", imagem: erick, hasBorder: true},
-  { id: 33, nome: "David", imagem: david, hasBorder: true},
-   /*{ id: 33, nome: "Figueiredo", imagem: figueiredo, hasBorder: true},*/
-  { id: 34, nome: "Pec", imagem: pec, hasBorder: true },
-  { id: 35, nome: "", imagem: semft,hasBorder: false},
-  { id: 36, nome: "", imagem: semft,hasBorder: false},
-  { id: 37, nome: "", imagem: semft,hasBorder: false},
-  { id: 38, nome: "", imagem: semft,hasBorder: false},
-  { id: 30, nome: "", imagem: semft,hasBorder: false},
-  { id: 39, nome: "", imagem: c1, hasBorder: true},
-  { id: 40, nome: "", imagem: c2, hasBorder: true},
-  { id: 41, nome: "", imagem: c3, hasBorder: true},
-  { id: 42, nome: "", imagem: c4, hasBorder: true},
-  { id: 43, nome: "", imagem: c5, hasBorder: true},
-  { id: 44, nome: "", imagem: c6, hasBorder: true},
-  { id: 45, nome: "", imagem: c7, hasBorder: true},
-  { id: 46, nome: "", imagem: c8, hasBorder: true},
-  { id: 47, nome: "", imagem: c9, hasBorder: true},
-  { id: 48, nome: "", imagem: c10, hasBorder: true},
-  { id: 49, nome: "", imagem: c11, hasBorder: true},
-  { id: 50, nome: "", imagem: v1, hasBorder: true},
-  { id: 51, nome: "", imagem: v2, hasBorder: true},
-  { id: 52, nome: "", imagem: v3, hasBorder: true},
-  { id: 53, nome: "", imagem: v4, hasBorder: true},
-  { id: 54, nome: "", imagem: v5, hasBorder: true},
-  { id: 55, nome: "", imagem: v6, hasBorder: true},
-  { id: 56, nome: "", imagem: v7, hasBorder: true},
-  { id: 57, nome: "", imagem: v8, hasBorder: true},
-  { id: 58, nome: "", imagem: v9, hasBorder: true},
-  { id: 59, nome: "", imagem: v10, hasBorder: true},
-  { id: 60, nome: "", imagem: v11, hasBorder: true},
+  { id: 1, nome: "Jardim", imagem: jardim, hasBorder: true, hasNumber: true, number: 1},
+  /*{ id: 2, nome: "Ivan", imagem: ivan , hasBorder: true, hasNumber: true, number: 0},*/
+  { id: 3, nome: "Halls", imagem: halls, hasBorder: true, hasNumber: true, number: 24},
+  { id: 4, nome: "Maicon", imagem: maicon, hasBorder: true, hasNumber: true, number: 4},
+  { id: 5, nome: "J. Victor", imagem: jv, hasBorder: true, hasNumber: true, number: 38},
+  { id: 6, nome: "Capasso", imagem: capasso, hasBorder: true, hasNumber: true, number: 22},
+  { id: 7, nome: "Léo", imagem: leo , hasBorder: true, hasNumber: true, number: 3},
+  { id: 8, nome: "Zé Vitor", imagem: zevitor, hasBorder: true, hasNumber: true, number: 44},
+  { id: 9, nome: "Miranda", imagem: miranda , hasBorder: true, hasNumber: true, number: 35},
+  { id: 10, nome: "Puma", imagem: puma, hasBorder: true, hasNumber: true, number: 2},
+  { id: 11, nome: "PH", imagem: ph , hasBorder: true, hasNumber: true, number: 96},
+  { id: 12, nome: "R. Rojas", imagem: rojas, hasBorder: true, hasNumber: true, number: "?"},
+  { id: 13, nome: "Juliao", imagem: juliao, hasBorder: true, hasNumber: true, number: "?"},
+  { id: 14, nome: "Piton", imagem: piton, hasBorder: true, hasNumber: true, number: 6},
+  { id: 15, nome: "JP Murilo", imagem: jpm , hasBorder: true, hasNumber: true, number: "?"},
+  { id: 16, nome: "Medel", imagem: medel, hasBorder: true, hasNumber: true, number: 17},
+  { id: 17, nome: "Mateus C.", imagem: cocao , hasBorder: true, hasNumber: true, number: 85},
+  { id: 18, nome: "Barros", imagem: barros, hasBorder: true, hasNumber: true, number: 88},
+  { id: 19, nome: "Zé Gabriel", imagem: zegabriel, hasBorder: true, hasNumber: true, number: 23},
+  { id: 20, nome: "Payet", imagem: payet, hasBorder: true, hasNumber: true, number: 10},
+  { id: 21, nome: "Praxedes", imagem: praxedes, hasBorder: true, hasNumber: true, number: 21},
+  { id: 22, nome: "Paulinho", imagem: paulinho, hasBorder: true, hasNumber: true, number: 18},
+  { id: 23, nome: "Jair", imagem: jair, hasBorder: true, hasNumber: true, number: 8},
+  { id: 24, nome: "Marlon", imagem: marlongomes, hasBorder: true, hasNumber: true, number: 25},
+  { id: 25, nome: "Rossi", imagem: rossi , hasBorder: true, hasNumber: true, number: 31},
+  { id: 26, nome: "Vegetti", imagem: vegetti, hasBorder: true, hasNumber: true, number: 99},
+  /*{ id: 27, nome: "Sebastian", imagem: sebas, hasBorder: true, hasNumber: true, number: 0},*/
+  { id: 28, nome: "Serginho", imagem: serginho, hasBorder: true, hasNumber: true, number: 70},
+  /*{ id: 29, nome: "Orellano", imagem: orellano, hasBorder: true, hasNumber: true, number: 0},*/
+  { id: 31, nome: "Rayan", imagem: rayan, hasBorder: true, hasNumber: true, number: 77},
+  { id: 32, nome: "Erick M.", imagem: erick, hasBorder: true, hasNumber: true, number: 16},
+  { id: 33, nome: "David", imagem: david, hasBorder: true, hasNumber: true, number: "?"},
+   /*{ id: 33, nome: "Figueiredo", imagem: figueiredo, hasBorder: true, hasNumber: true, number: 0},*/
+  { id: 34, nome: "Pec", imagem: pec, hasBorder: true, hasNumber: true, number: 11},
+  { id: 35, nome: "", imagem: semft,hasBorder: false, hasNumber: false, number: 0},
+  { id: 36, nome: "", imagem: semft,hasBorder: false, hasNumber: false, number: 0},
+  { id: 37, nome: "", imagem: semft,hasBorder: false, hasNumber: false, number: 0},
+  { id: 38, nome: "", imagem: semft,hasBorder: false, hasNumber: false, number: 0},
+  { id: 30, nome: "", imagem: semft,hasBorder: false, hasNumber: false, number: 0},
+  { id: 39, nome: "", imagem: c1, hasBorder: true, hasNumber: false, number: 0},
+  { id: 40, nome: "", imagem: c2, hasBorder: true, hasNumber: false, number: 0},
+  { id: 41, nome: "", imagem: c3, hasBorder: true, hasNumber: false, number: 0},
+  { id: 42, nome: "", imagem: c4, hasBorder: true, hasNumber: false, number: 0},
+  { id: 43, nome: "", imagem: c5, hasBorder: true, hasNumber: false, number: 0},
+  { id: 44, nome: "", imagem: c6, hasBorder: true, hasNumber: false, number: 0},
+  { id: 45, nome: "", imagem: c7, hasBorder: true, hasNumber: false, number: 0},
+  { id: 46, nome: "", imagem: c8, hasBorder: true, hasNumber: false, number: 0},
+  { id: 47, nome: "", imagem: c9, hasBorder: true, hasNumber: false, number: 0},
+  { id: 48, nome: "", imagem: c10, hasBorder: true, hasNumber: false, number: 0},
+  { id: 49, nome: "", imagem: c11, hasBorder: true, hasNumber: false, number: 0},
+  { id: 50, nome: "", imagem: v1, hasBorder: true, hasNumber: false, number: 0},
+  { id: 51, nome: "", imagem: v2, hasBorder: true, hasNumber: false, number: 0},
+  { id: 52, nome: "", imagem: v3, hasBorder: true, hasNumber: false, number: 0},
+  { id: 53, nome: "", imagem: v4, hasBorder: true, hasNumber: false, number: 0},
+  { id: 54, nome: "", imagem: v5, hasBorder: true, hasNumber: false, number: 0},
+  { id: 55, nome: "", imagem: v6, hasBorder: true, hasNumber: false, number: 0},
+  { id: 56, nome: "", imagem: v7, hasBorder: true, hasNumber: false, number: 0},
+  { id: 57, nome: "", imagem: v8, hasBorder: true, hasNumber: false, number: 0},
+  { id: 58, nome: "", imagem: v9, hasBorder: true, hasNumber: false, number: 0},
+  { id: 59, nome: "", imagem: v10, hasBorder: true, hasNumber: false, number: 0},
+  { id: 60, nome: "", imagem: v11, hasBorder: true, hasNumber: false, number: 0},
  
 ];
 
@@ -159,12 +159,14 @@ const playerData = () => {
     name: player.nome,
     image: player.imagem,
     hasBorder: player.hasBorder,
+    hasNumber: player.hasNumber,
+    number: player.number,
   }));
 
   return [...players];  
 };
 
-const DraggablePlayer = ({ id, left, top, name, image, hasBorder }) => {
+const DraggablePlayer = ({ id, left, top, name, image, hasBorder, hasNumber, number}) => {
   const [{ isDragging }, drag] = useDrag({
     type: ItemTypes.PLAYER,
     item: { id },
@@ -175,7 +177,7 @@ const DraggablePlayer = ({ id, left, top, name, image, hasBorder }) => {
 
   const playerNameStyle = {
     marginTop: '0px',
-    textShadow: '0 0 2px #000',
+    textShadow: '0 0 6px #000',
     fontSize: '18px',
     fontWeight: 'bold',
     color: 'white', 
@@ -187,6 +189,7 @@ const DraggablePlayer = ({ id, left, top, name, image, hasBorder }) => {
   };
 
   const playerImageContainerStyle = {
+    position: 'relative', // Adicione position relative para que o número seja posicionado absolutamente em relação a este contêiner
     width: '95px',
     height: '95px',
     borderRadius: '50%',
@@ -195,12 +198,27 @@ const DraggablePlayer = ({ id, left, top, name, image, hasBorder }) => {
     backgroundColor: hasBorder ? '#65615f' : 'none',
   };
 
+  const playerNumberStyle = {
+    position: 'absolute',
+    bottom: 0,
+    right: 0,
+    textShadow: '0 0 8px #000',
+    fontSize: '28px',
+    fontWeight: 'bold',
+    color: '#bb0000',
+    padding: '10px 10px',
+    borderRadius: '0 0 0 10px', // Borda arredondada apenas no canto inferior direito
+    WebkitTextStroke: '0.4px white',
+  };
+
+
   return (
     <div ref={drag} style={{ ...playerStyle, left, top, opacity: isDragging ? 0.5 : 1 }}>
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
         <div style={playerImageContainerStyle}>
-          <img src={image} alt={name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+          <img src={image} alt={name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />      
         </div>
+        {hasNumber && <div style={playerNumberStyle}>{number}</div>}
         <div style={playerNameStyle}>
            <div style={playerNameContainerStyle}>{name}</div>
         </div>
@@ -241,7 +259,9 @@ const Field = () => {
     >
       {players.map((player) => (
         <div key={player.id}>
-          <DraggablePlayer id={player.id} left={player.left} top={player.top} name={player.name} image={player.image} hasBorder={player.hasBorder}  />
+          <DraggablePlayer id={player.id} left={player.left} top={player.top} 
+                           name={player.name} image={player.image} hasBorder={player.hasBorder} 
+                           hasNumber={player.hasNumber} number={player.number} />
         </div>
       ))}
     </div>
