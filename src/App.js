@@ -31,7 +31,7 @@ import miranda from './jogadores/miranda.png';
 import rayan from './jogadores/rayan.png';
 import jpm from './jogadores/jpm.png';
 import rossi from './jogadores/rossi.png';
-import sebas from './jogadores/sebas.png';
+import adson from './jogadores/adson.png';
 import serginho from './jogadores/serginho.png';
 import mumu from './jogadores/mumu.png';
 import vegetti from './jogadores/vegetti.png';
@@ -113,7 +113,7 @@ const playersList = [
   { id: 24, nome: "Marlon", imagem: marlongomes, hasBorder: true, hasNumber: true, number: 25},
   { id: 25, nome: "Rossi", imagem: rossi , hasBorder: true, hasNumber: true, number: 31},
   { id: 26, nome: "Vegetti", imagem: vegetti, hasBorder: true, hasNumber: true, number: 99},
-  /*{ id: 27, nome: "Sebastian", imagem: sebas, hasBorder: true, hasNumber: true, number: 0},*/
+  { id: 27, nome: "Adson", imagem: adson, hasBorder: true, hasNumber: true, number: "?"},
   { id: 28, nome: "Serginho", imagem: serginho, hasBorder: true, hasNumber: true, number: 70},
   /*{ id: 29, nome: "Orellano", imagem: orellano, hasBorder: true, hasNumber: true, number: 0},*/
   { id: 31, nome: "Rayan", imagem: rayan, hasBorder: true, hasNumber: true, number: 77},
