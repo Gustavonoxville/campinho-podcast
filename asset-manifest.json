@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/campinho-podcast/static/css/main.e6c13ad2.css",
-    "main.js": "/campinho-podcast/static/js/main.95104012.js",
+    "main.js": "/campinho-podcast/static/js/main.6411edef.js",
     "static/js/787.bf6eab5d.chunk.js": "/campinho-podcast/static/js/787.bf6eab5d.chunk.js",
+    "static/media/adson.png": "/campinho-podcast/static/media/adson.02dd53200383c6b70fe1.png",
     "static/media/field2.svg": "/campinho-podcast/static/media/field2.631b1eff66d63437ca7ca81652c81944.svg",
     "static/media/mumu.png": "/campinho-podcast/static/media/mumu.e0667e42259e8b3e32a0.png",
     "static/media/jpm.png": "/campinho-podcast/static/media/jpm.1b4138e27dd6ae77b88a.png",
@@ -30,7 +31,6 @@
     "static/media/zegabriel.png": "/campinho-podcast/static/media/zegabriel.570105b02cee08f91ce7.png",
     "static/media/barros.png": "/campinho-podcast/static/media/barros.ae4f57a967585c56c456.png",
     "static/media/orellano.png": "/campinho-podcast/static/media/orellano.28719879984aa4282464.png",
-    "static/media/sebas.png": "/campinho-podcast/static/media/sebas.1c1233c6729a49ac85f6.png",
     "static/media/miranda.png": "/campinho-podcast/static/media/miranda.f8d348ba12e1b06ca791.png",
     "static/media/erick.png": "/campinho-podcast/static/media/erick.696fa6e18a68f11a1ff5.png",
     "static/media/medel.png": "/campinho-podcast/static/media/medel.46d48bc76069f9413184.png",
@@ -52,11 +52,11 @@
     "static/media/8.svg": "/campinho-podcast/static/media/8.3e387385a95b44485c6a957c13600060.svg",
     "static/media/9.svg": "/campinho-podcast/static/media/9.487107596d399f5bdf79407893a200b0.svg",
     "main.e6c13ad2.css.map": "/campinho-podcast/static/css/main.e6c13ad2.css.map",
-    "main.95104012.js.map": "/campinho-podcast/static/js/main.95104012.js.map",
+    "main.6411edef.js.map": "/campinho-podcast/static/js/main.6411edef.js.map",
     "787.bf6eab5d.chunk.js.map": "/campinho-podcast/static/js/787.bf6eab5d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.95104012.js"
+    "static/js/main.6411edef.js"
   ]
 }
