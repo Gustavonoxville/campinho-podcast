@@ -108,9 +108,9 @@ const playersList = [
   { id: 14, nome: "Piton", imagem: piton, hasBorder: true, hasNumber: true, number: 6},
   { id: 15, nome: "JP Murilo", imagem: jpm , hasBorder: true, hasNumber: true, number: "?"},
   { id: 16, nome: "Medel", imagem: medel, hasBorder: true, hasNumber: true, number: 17},
-  { id: 17, nome: "Mateus C.", imagem: cocao , hasBorder: true, hasNumber: true, number: 85},
+  { id: 17, nome: "Mateus", imagem: cocao , hasBorder: true, hasNumber: true, number: 85},
   { id: 18, nome: "Barros", imagem: barros, hasBorder: true, hasNumber: true, number: 88},
-  { id: 19, nome: "Zé Gabriel", imagem: zegabriel, hasBorder: true, hasNumber: true, number: 23},
+  { id: 19, nome: "Gabriel", imagem: zegabriel, hasBorder: true, hasNumber: true, number: 23},
   { id: 29, nome: "Sforza", imagem: sforza, hasBorder: true, hasNumber: true, number: 13},
   { id: 20, nome: "Payet", imagem: payet, hasBorder: true, hasNumber: true, number: 10},
   { id: 21, nome: "Praxedes", imagem: praxedes, hasBorder: true, hasNumber: true, number: 21},
@@ -153,10 +153,10 @@ const playersList = [
   { id: 58, nome: "", imagem: v9, hasBorder: true, hasNumber: false, number: 0},
   { id: 59, nome: "", imagem: v10, hasBorder: true, hasNumber: false, number: 0},
   { id: 60, nome: "", imagem: v11, hasBorder: true, hasNumber: false, number: 0},
-  { id: 61, nome: "Coronado *ESPECULAÇÃO*", imagem: coronado, hasBorder: true, hasNumber: true, number: "?"},
-  { id: 62, nome: "Cuellar *ESPECULAÇÃO*", imagem: cuellar, hasBorder: true, hasNumber: true, number: "?"},
-  { id: 63, nome: "Allan *ESPECULAÇÃO*", imagem: allan, hasBorder: true, hasNumber: true, number: "?"},
-  { id: 64, nome: "Lucho *ESPECULAÇÃO*", imagem: lucho, hasBorder: true, hasNumber: true, number: "?"},
+  { id: 61, nome: "Coronado *ESPECULAÇÃO*", imagem: coronado, hasBorder: true, hasNumber: false, number: "?"},
+  { id: 62, nome: "Cuellar *ESPECULAÇÃO*", imagem: cuellar, hasBorder: true, hasNumber: false, number: "?"},
+  { id: 63, nome: "Allan *ESPECULAÇÃO*", imagem: allan, hasBorder: true, hasNumber: false, number: "?"},
+  { id: 64, nome: "Lucho *ESPECULAÇÃO*", imagem: lucho, hasBorder: true, hasNumber: false, number: "?"},
  
 ];
 
@@ -175,7 +175,7 @@ const playerData = () => {
   return [...players];  
 };
 
-const DraggablePlayer = ({ id, left, top, name, image, hasBorder, hasNumber, number}) => {
+const DraggablePlayer = ({ id, left, top, name, image, hasBorder, hasNumber, number }) => {
   const [{ isDragging }, drag] = useDrag({
     type: ItemTypes.PLAYER,
     item: { id },
@@ -186,15 +186,19 @@ const DraggablePlayer = ({ id, left, top, name, image, hasBorder, hasNumber, num
 
   const playerNameStyle = {
     marginTop: '0px',
-    textShadow: '0 0 6px #000',
-    fontSize: '18px',
+    textShadow: '0 0 6px #000, 0 0 6px #000, 0 0 6px #000, 0 0 6px #000', // Adicione esta linha para criar uma borda preta
+    fontSize: '21px',
     fontWeight: 'bold',
-    color: 'white', 
+    color: 'white',
     textAlign: 'center',
+    zIndex: 2, // Garante que o nome do jogador fique acima do círculo
+    //border: '2px solid #373737',
   };
 
   const playerNameContainerStyle = {
-    padding: '5px', // Adicione um espaçamento interno de 5px
+    padding: '-2px', // Adicione um espaçamento interno de 5px
+    position: 'relative', // Garante que o z-index funcione corretamente
+    zIndex: 2, // Garante que o nome do jogador fique acima do círculo
   };
 
   const playerImageContainerStyle = {
@@ -203,33 +207,46 @@ const DraggablePlayer = ({ id, left, top, name, image, hasBorder, hasNumber, num
     height: '95px',
     borderRadius: '50%',
     overflow: 'hidden',
-    border: hasBorder ? '2px solid #373737' : 'none',  // Adicione a borda aqui
+    border: hasBorder ? '2px solid #373737' : 'none', // Adicione a borda aqui
     backgroundColor: hasBorder ? '#65615f' : 'none',
+    zIndex: 1, // Garante que a imagem do jogador fique abaixo do círculo
+  };
+
+  const playerNumberContainerStyle = {
+    position: 'absolute',
+    bottom: '20px',
+    right: 0,
+    width: '30px', // Defina um tamanho fixo para o contêiner do número
+    height: '30px', // Defina um tamanho fixo para o contêiner do número
+    borderRadius: '50%',
+    overflow: 'hidden',
+    backgroundColor: 'white',
+    zIndex: 1, // Garante que a imagem do jogador fique abaixo do círculo
+    border: '2px solid #373737',
   };
 
   const playerNumberStyle = {
-    position: 'absolute',
-    bottom: 0,
-    right: 0,
-    textShadow: '0 0 8px #000',
-    fontSize: '28px',
+    fontSize: '20px',
     fontWeight: 'bold',
     color: '#bb0000',
-    padding: '10px 10px',
-    borderRadius: '0 0 0 10px', // Borda arredondada apenas no canto inferior direito
-    WebkitTextStroke: '0.4px white',
+    padding: '1px',
+    textAlign: 'center',
+    boxSizing: 'border-box',
   };
-
 
   return (
     <div ref={drag} style={{ ...playerStyle, left, top, opacity: isDragging ? 0.5 : 1 }}>
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
         <div style={playerImageContainerStyle}>
-          <img src={image} alt={name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />      
+          <img src={image} alt={name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
         </div>
-        {hasNumber && <div style={playerNumberStyle}>{number}</div>}
+        {hasNumber && (
+          <div style={playerNumberContainerStyle}>
+            <div style={playerNumberStyle}>{number}</div>
+          </div>
+        )}
         <div style={playerNameStyle}>
-           <div style={playerNameContainerStyle}>{name}</div>
+          <div style={playerNameContainerStyle}>{name}</div>
         </div>
       </div>
     </div>
