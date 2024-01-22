@@ -123,8 +123,8 @@ const playersList = [
   { id: 28, nome: "Serginho", imagem: serginho, hasBorder: true, hasNumber: true, number: 70},
   { id: 31, nome: "Rayan", imagem: rayan, hasBorder: true, hasNumber: true, number: 77},
   { id: 32, nome: "Erick M.", imagem: erick, hasBorder: true, hasNumber: true, number: 16},
-  { id: 33, nome: "David", imagem: david, hasBorder: true, hasNumber: true, number: "?"},
-   /*{ id: 33, nome: "Figueiredo", imagem: figueiredo, hasBorder: true, hasNumber: true, number: 0},*/
+  { id: 33, nome: "David", imagem: david, hasBorder: true, hasNumber: true, number: 7},
+  { id: 65, nome: "Orellano", imagem: orellano, hasBorder: true, hasNumber: true, number: 14},
   /*{ id: 34, nome: "Pec", imagem: pec, hasBorder: true, hasNumber: true, number: 11},*/
   { id: 35, nome: "", imagem: semft,hasBorder: false, hasNumber: false, number: 0},
   { id: 36, nome: "", imagem: semft,hasBorder: false, hasNumber: false, number: 0},
