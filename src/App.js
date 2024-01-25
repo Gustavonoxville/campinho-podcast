@@ -67,6 +67,7 @@ import lucho from './jogadores/lucho.png';
 import allan from './jogadores/allan.png';
 import coronado from './jogadores/coronado.png';
 import cuellar from './jogadores/cuellar.png';
+import lucca from './jogadores/lucca.png';
 
 const containerStyle = {
   width: '1550px',
@@ -111,6 +112,7 @@ const playersList = [
   { id: 17, nome: "Mateus", imagem: cocao , hasBorder: true, hasNumber: true, number: 85},
   { id: 18, nome: "Barros", imagem: barros, hasBorder: true, hasNumber: true, number: 88},
   { id: 19, nome: "Gabriel", imagem: zegabriel, hasBorder: true, hasNumber: true, number: 23},
+  { id: 65, nome: "De Lucca", imagem: lucca, hasBorder: true, hasNumber: true, number: 0},
   { id: 29, nome: "Sforza", imagem: sforza, hasBorder: true, hasNumber: true, number: 13},
   { id: 20, nome: "Payet", imagem: payet, hasBorder: true, hasNumber: true, number: 10},
   { id: 21, nome: "Praxedes", imagem: praxedes, hasBorder: true, hasNumber: true, number: 21},
@@ -124,7 +126,7 @@ const playersList = [
   { id: 31, nome: "Rayan", imagem: rayan, hasBorder: true, hasNumber: true, number: 77},
   { id: 32, nome: "Erick M.", imagem: erick, hasBorder: true, hasNumber: true, number: 16},
   { id: 33, nome: "David", imagem: david, hasBorder: true, hasNumber: true, number: 7},
-  { id: 65, nome: "Orellano", imagem: orellano, hasBorder: true, hasNumber: true, number: 14},
+  { id: 66, nome: "Orellano", imagem: orellano, hasBorder: true, hasNumber: true, number: 14},
   /*{ id: 34, nome: "Pec", imagem: pec, hasBorder: true, hasNumber: true, number: 11},*/
   { id: 35, nome: "", imagem: semft,hasBorder: false, hasNumber: false, number: 0},
   { id: 36, nome: "", imagem: semft,hasBorder: false, hasNumber: false, number: 0},
@@ -229,7 +231,7 @@ const DraggablePlayer = ({ id, left, top, name, image, hasBorder, hasNumber, num
     fontSize: '20px',
     fontWeight: 'bold',
     color: '#bb0000',
-    padding: '1px',
+    padding: '2px',
     textAlign: 'center',
     boxSizing: 'border-box',
   };
