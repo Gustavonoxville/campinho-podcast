@@ -68,6 +68,9 @@ import allan from './jogadores/allan.png';
 import coronado from './jogadores/coronado.png';
 import cuellar from './jogadores/cuellar.png';
 import lucca from './jogadores/lucca.png';
+import galdames from './jogadores/galdames.png';
+import leandrinho from './jogadores/leandrinho.png';
+import paixao from './jogadores/paixao.png';
 
 const containerStyle = {
   width: '1550px',
@@ -105,14 +108,16 @@ const playersList = [
   { id: 10, nome: "Puma", imagem: puma, hasBorder: true, hasNumber: true, number: 2},
   { id: 11, nome: "PH", imagem: ph , hasBorder: true, hasNumber: true, number: 96},
   { id: 12, nome: "R. Rojas", imagem: rojas, hasBorder: true, hasNumber: true, number: 32},
-  { id: 13, nome: "Juliao", imagem: juliao, hasBorder: true, hasNumber: true, number: "?"},
+  { id: 13, nome: "Juliao", imagem: juliao, hasBorder: true, hasNumber: true, number: 26},
+  { id: 69, nome: "Leandrinho", imagem: leandrinho, hasBorder: true, hasNumber: true, number: 66},
   { id: 14, nome: "Piton", imagem: piton, hasBorder: true, hasNumber: true, number: 6},
   { id: 15, nome: "JP Murilo", imagem: jpm , hasBorder: true, hasNumber: true, number: "?"},
   { id: 16, nome: "Medel", imagem: medel, hasBorder: true, hasNumber: true, number: 17},
   { id: 17, nome: "Mateus", imagem: cocao , hasBorder: true, hasNumber: true, number: 85},
   { id: 18, nome: "Barros", imagem: barros, hasBorder: true, hasNumber: true, number: 88},
   { id: 19, nome: "Gabriel", imagem: zegabriel, hasBorder: true, hasNumber: true, number: 23},
-  { id: 65, nome: "De Lucca", imagem: lucca, hasBorder: true, hasNumber: true, number: 0},
+  { id: 65, nome: "De Lucca", imagem: lucca, hasBorder: true, hasNumber: true, number: 5},
+  { id: 67, nome: "Galdames", imagem: galdames, hasBorder: true, hasNumber: true, number: 98},
   { id: 29, nome: "Sforza", imagem: sforza, hasBorder: true, hasNumber: true, number: 13},
   { id: 20, nome: "Payet", imagem: payet, hasBorder: true, hasNumber: true, number: 10},
   { id: 21, nome: "Praxedes", imagem: praxedes, hasBorder: true, hasNumber: true, number: 21},
@@ -126,7 +131,8 @@ const playersList = [
   { id: 31, nome: "Rayan", imagem: rayan, hasBorder: true, hasNumber: true, number: 77},
   { id: 32, nome: "Erick M.", imagem: erick, hasBorder: true, hasNumber: true, number: 16},
   { id: 33, nome: "David", imagem: david, hasBorder: true, hasNumber: true, number: 7},
-  { id: 66, nome: "Orellano", imagem: orellano, hasBorder: true, hasNumber: true, number: 14},
+  { id: 68, nome: "Paixao", imagem: paixao, hasBorder: true, hasNumber: true, number: 90},
+  /*{ id: 66, nome: "Orellano", imagem: orellano, hasBorder: true, hasNumber: true, number: 14},*/
   /*{ id: 34, nome: "Pec", imagem: pec, hasBorder: true, hasNumber: true, number: 11},*/
   { id: 35, nome: "", imagem: semft,hasBorder: false, hasNumber: false, number: 0},
   { id: 36, nome: "", imagem: semft,hasBorder: false, hasNumber: false, number: 0},
