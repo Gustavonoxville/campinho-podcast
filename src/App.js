@@ -72,6 +72,8 @@ import galdames from './jogadores/galdames.png';
 import leandrinho from './jogadores/leandrinho.png';
 import paixao from './jogadores/paixao.png';
 import victorl from './jogadores/victorl.png';
+import breno from './jogadores/breno.png';
+import pedroh from './jogadores/pedroh.png';
 
 const containerStyle = {
   width: '1550px',
@@ -128,14 +130,14 @@ const playersList = [
   /*{ id: 24, nome: "Marlon", imagem: marlongomes, hasBorder: true, hasNumber: true, number: 25},*/
   { id: 25, nome: "Rossi", imagem: rossi , hasBorder: true, hasNumber: true, number: 31},
   { id: 26, nome: "Vegetti", imagem: vegetti, hasBorder: true, hasNumber: true, number: 99},
-  { id: 27, nome: "Adson", imagem: adson, hasBorder: true, hasNumber: true, number: 20},
+  { id: 27, nome: "Adson", imagem: adson, hasBorder: true, hasNumber: true, number: 28},
   { id: 28, nome: "Serginho", imagem: serginho, hasBorder: true, hasNumber: true, number: 70},
   { id: 31, nome: "Rayan", imagem: rayan, hasBorder: true, hasNumber: true, number: 77},
   { id: 32, nome: "Erick M.", imagem: erick, hasBorder: true, hasNumber: true, number: 16},
   { id: 33, nome: "David", imagem: david, hasBorder: true, hasNumber: true, number: 7},
   { id: 68, nome: "Paixão", imagem: paixao, hasBorder: true, hasNumber: true, number: 90},
-  /*{ id: 66, nome: "Orellano", imagem: orellano, hasBorder: true, hasNumber: true, number: 14},*/
-  /*{ id: 34, nome: "Pec", imagem: pec, hasBorder: true, hasNumber: true, number: 11},*/
+  { id: 66, nome: "Breno L.", imagem: breno, hasBorder: true, hasNumber: true, number: 9},
+  { id: 34, nome: "Pedro H.", imagem: pedroh, hasBorder: true, hasNumber: true, number: 11},
   { id: 35, nome: "", imagem: semft,hasBorder: false, hasNumber: false, number: 0},
   { id: 36, nome: "", imagem: semft,hasBorder: false, hasNumber: false, number: 0},
   { id: 37, nome: "", imagem: semft,hasBorder: false, hasNumber: false, number: 0},
