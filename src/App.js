@@ -117,7 +117,7 @@ const playersList = [
   { id: 69, nome: "Leandrinho", imagem: leandrinho, hasBorder: true, hasNumber: true, number: 66},
   { id: 15, nome: "JP Murilo", imagem: jpm , hasBorder: true, hasNumber: true, number: "?"},
   { id: 17, nome: "Mateus", imagem: cocao , hasBorder: true, hasNumber: true, number: 85},
-  { id: 18, nome: "Lucas E.", imagem: lucase, hasBorder: true, hasNumber: true, number: 80},
+  { id: 18, nome: "Lucas Edu.", imagem: lucase, hasBorder: true, hasNumber: true, number: 58},
   { id: 19, nome: "Gabriel", imagem: zegabriel, hasBorder: true, hasNumber: true, number: 23},
   { id: 65, nome: "De Lucca", imagem: lucca, hasBorder: true, hasNumber: true, number: 5},
   { id: 67, nome: "Galdames", imagem: galdames, hasBorder: true, hasNumber: true, number: 27},
