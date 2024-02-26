@@ -65,6 +65,7 @@ import leandrinho from './jogadores/leandrinho.png';
 import paixao from './jogadores/paixao.png';
 import victorl from './jogadores/victorl.png';
 import lucase from './jogadores/lucase.png';
+import andres from './jogadores/andres.png';
 
 const containerStyle = {
   width: '1550px',
@@ -98,7 +99,7 @@ const playersList = [
   { id: 5, nome: "J. Victor", imagem: jv, hasBorder: true, hasNumber: true, number: 38},
   { id: 7, nome: "Léo", imagem: leo , hasBorder: true, hasNumber: true, number: 3},
   /*{ id: 6, nome: "Capasso", imagem: capasso, hasBorder: true, hasNumber: true, number: 22},*/
-  { id: 8, nome: "Zé Vitor", imagem: zevitor, hasBorder: true, hasNumber: true, number: 44},
+  /*{ id: 8, nome: "Zé Vitor", imagem: zevitor, hasBorder: true, hasNumber: true, number: 44},*/
   /*{ id: 9, nome: "Miranda", imagem: miranda , hasBorder: true, hasNumber: true, number: 35},*/
   { id: 12, nome: "R. Rojas", imagem: rojas, hasBorder: true, hasNumber: true, number: 32},
   { id: 10, nome: "Puma", imagem: puma, hasBorder: true, hasNumber: true, number: 2},
@@ -110,7 +111,7 @@ const playersList = [
   { id: 15, nome: "JP Murilo", imagem: jpm , hasBorder: true, hasNumber: true, number: "?"},
   { id: 17, nome: "Mateus", imagem: cocao , hasBorder: true, hasNumber: true, number: 85},
   { id: 18, nome: "Lucas E.", imagem: lucase, hasBorder: true, hasNumber: true, number: 58},
-  { id: 19, nome: "Gabriel", imagem: zegabriel, hasBorder: true, hasNumber: true, number: 23},
+  { id: 19, nome: "Zé Gabriel", imagem: zegabriel, hasBorder: true, hasNumber: true, number: 23},
   { id: 65, nome: "De Lucca", imagem: lucca, hasBorder: true, hasNumber: true, number: 5},
   { id: 67, nome: "Galdames", imagem: galdames, hasBorder: true, hasNumber: true, number: 27},
   { id: 29, nome: "Sforza", imagem: sforza, hasBorder: true, hasNumber: true, number: 20},
@@ -126,8 +127,8 @@ const playersList = [
   { id: 31, nome: "Rayan", imagem: rayan, hasBorder: true, hasNumber: true, number: 77},
   { id: 32, nome: "Erick M.", imagem: erick, hasBorder: true, hasNumber: true, number: 16},
   { id: 33, nome: "David", imagem: david, hasBorder: true, hasNumber: true, number: 7},
-  { id: 68, nome: "Paixão", imagem: paixao, hasBorder: true, hasNumber: true, number: 90},
-  /*{ id: 66, nome: "Breno L.", imagem: breno, hasBorder: true, hasNumber: true, number: 9},*/
+   /*{ id: 68, nome: "Paixão", imagem: paixao, hasBorder: true, hasNumber: true, number: 90},*/
+  { id: 66, nome: "André Silva", imagem: andres, hasBorder: true, hasNumber: true, number: 11},
   /*{ id: 34, nome: "Pedro H.", imagem: pedroh, hasBorder: true, hasNumber: true, number: 11},*/
   { id: 35, nome: "", imagem: semft,hasBorder: false, hasNumber: false, number: 0},
   { id: 36, nome: "", imagem: semft,hasBorder: false, hasNumber: false, number: 0},
@@ -167,7 +168,7 @@ const playerData = () => {
   const players = playersList.map((player, index) => ({
     id: player.id,
     top: 850 + Math.floor(index / 15) * 150 + 30, // Ajuste para quebrar a linha a cada 15 jogadores
-    left: (index % 15) * 100 + 180, // Ajuste para posicionar os jogadores na linha correta
+    left: (index % 15) * 105 + 135, // Ajuste para posicionar os jogadores na linha correta
     name: player.nome,
     image: player.imagem,
     hasBorder: player.hasBorder,
@@ -190,7 +191,7 @@ const DraggablePlayer = ({ id, left, top, name, image, hasBorder, hasNumber, num
   const playerNameStyle = {
     marginTop: '0px',
     textShadow: '0 0 6px #000, 0 0 6px #000, 0 0 6px #000, 0 0 6px #000', // Adicione esta linha para criar uma borda preta
-    fontSize: '21px',
+    fontSize: '22px',
     fontWeight: 'bold',
     color: 'white',
     textAlign: 'center',
@@ -202,12 +203,13 @@ const DraggablePlayer = ({ id, left, top, name, image, hasBorder, hasNumber, num
     padding: '-2px', // Adicione um espaçamento interno de 5px
     position: 'relative', // Garante que o z-index funcione corretamente
     zIndex: 2, // Garante que o nome do jogador fique acima do círculo
+    whiteSpace: 'nowrap', // Evita que o nome do jogador quebre a linha
   };
 
   const playerImageContainerStyle = {
     position: 'relative', // Adicione position relative para que o número seja posicionado absolutamente em relação a este contêiner
-    width: '95px',
-    height: '95px',
+    width: '102px',
+    height: '102px',
     borderRadius: '50%',
     overflow: 'hidden',
     border: hasBorder ? '2px solid #373737' : 'none', // Adicione a borda aqui
@@ -232,7 +234,7 @@ const DraggablePlayer = ({ id, left, top, name, image, hasBorder, hasNumber, num
   };
 
   const playerNumberStyle = {
-    fontSize: '20px',
+    fontSize: '21px',
     fontWeight: 'bold',
     color: '#bb0000',
     padding: '1px',
