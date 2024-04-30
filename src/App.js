@@ -62,7 +62,7 @@ import lucho from './jogadores/lucho.png';
 import lucca from './jogadores/lucca.png';
 import galdames from './jogadores/galdames.png';
 import leandrinho from './jogadores/leandrinho.png';
-import paixao from './jogadores/paixao.png';
+import estrella from './jogadores/estrella.png';
 import victorl from './jogadores/victorl.png';
 import lucase from './jogadores/lucase.png';
 import andres from './jogadores/andres.png';
@@ -119,6 +119,7 @@ const playersList = [
   { id: 17, nome: "M. Cocão", imagem: cocao , hasBorder: true, hasNumber: true, number: 85},
   { id: 67, nome: "Galdames", imagem: galdames, hasBorder: true, hasNumber: true, number: 27},
   { id: 29, nome: "Sforza", imagem: sforza, hasBorder: true, hasNumber: true, number: 20},
+  { id: 62, nome: "Estrella", imagem: estrella, hasBorder: true, hasNumber: true, number: 89},
   { id: 20, nome: "Payet", imagem: payet, hasBorder: true, hasNumber: true, number: 10},
   { id: 21, nome: "Praxedes", imagem: praxedes, hasBorder: true, hasNumber: true, number: 21},
   { id: 22, nome: "Paulinho", imagem: paulinho, hasBorder: true, hasNumber: true, number: 18},
@@ -161,7 +162,6 @@ const playersList = [
   { id: 59, nome: "", imagem: v10, hasBorder: true, hasNumber: false, number: 0},
   { id: 60, nome: "", imagem: v11, hasBorder: true, hasNumber: false, number: 0},
   /*{ id: 61, nome: "Coronado *ESPECULAÇÃO*", imagem: coronado, hasBorder: true, hasNumber: false, number: "?"},*/
-  /*{ id: 62, nome: "Cuellar *ESPECULAÇÃO*", imagem: cuellar, hasBorder: true, hasNumber: false, number: "?"},*/
   /*{ id: 63, nome: "Allan *ESPECULAÇÃO*", imagem: allan, hasBorder: true, hasNumber: false, number: "?"},*/
   /*{ id: 64, nome: "Lucho *ESPECULAÇÃO*", imagem: lucho, hasBorder: true, hasNumber: false, number: "?"},*/
  
