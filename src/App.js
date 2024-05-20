@@ -69,6 +69,7 @@ import andres from './jogadores/andres.png';
 import clayton from './jogadores/clayton.png';
 import hugo from './jogadores/hugo.png';
 import serjao from './jogadores/serjao.png';
+import couto from './jogadores/couto.png';
 
 const containerStyle = {
   width: '1550px',
@@ -132,6 +133,7 @@ const playersList = [
   { id: 32, nome: "Erick M.", imagem: erick, hasBorder: true, hasNumber: true, number: 16},
   { id: 33, nome: "David", imagem: david, hasBorder: true, hasNumber: true, number: 7},
   { id: 68, nome: "Clayton", imagem: clayton, hasBorder: true, hasNumber: true, number: 9},
+  { id: 63, nome: "Coutinho", imagem: couto, hasBorder: true, hasNumber: true, number: 11},
   { id: 66, nome: "André Silva", imagem: andres, hasBorder: true, hasNumber: false, number: 11},
   { id: 34, nome: "Klopp", imagem: serjao, hasBorder: true, hasNumber: false, number: 11},
   { id: 35, nome: "", imagem: semft,hasBorder: false, hasNumber: false, number: 0},
