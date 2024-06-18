@@ -9,7 +9,7 @@ import barros from './jogadores/barros.png';
 import cocao from './jogadores/cocao.png';
 import erick from './jogadores/erick.png';
 import rojas from './jogadores/rojas.png';
-import halls from './jogadores/halls.png';
+import pablo from './jogadores/pablo.png';
 import keiller from './jogadores/keiller.png';
 import jair from './jogadores/jair.png';
 import jardim from './jogadores/jardim.png';
@@ -17,6 +17,8 @@ import juliao from './jogadores/juliao.png';
 import leo from './jogadores/leo.png';
 import maicon from './jogadores/maicon.png';
 import medel from './jogadores/medel.png';
+import lgus from './jogadores/lg.png';
+import ly from './jogadores/ly.png';
 import paulinho from './jogadores/paulinho.png';
 import payet from './jogadores/payet.png';
 import praxedes from './jogadores/praxedes.png';
@@ -97,8 +99,9 @@ const ItemTypes = {
 const playersList = [
   { id: 1, nome: "Jardim", imagem: jardim, hasBorder: true, hasNumber: true, number: 1},
   { id: 2, nome: "Keiller", imagem: keiller , hasBorder: true, hasNumber: true, number: 13},
-  /*{ id: 3, nome: "Halls", imagem: halls, hasBorder: true, hasNumber: true, number: 24},*/
-  { id: 16, nome: "Medel", imagem: medel, hasBorder: true, hasNumber: true, number: 17},
+  { id: 3, nome: "Pablo", imagem: pablo, hasBorder: true, hasNumber: true, number: 37},
+  { id: 64, nome: "Lyncon", imagem: ly, hasBorder: true, hasNumber: true, number: 40},
+  { id: 16, nome: "Luiz Gustavo", imagem: lgus, hasBorder: true, hasNumber: true, number: 44},
   { id: 4, nome: "Maicon", imagem: maicon, hasBorder: true, hasNumber: true, number: 4},
   { id: 5, nome: "J. Victor", imagem: jv, hasBorder: true, hasNumber: true, number: 38},
   { id: 7, nome: "Léo", imagem: leo , hasBorder: true, hasNumber: true, number: 3},
