@@ -61,7 +61,6 @@ import v11 from './jogadores/numbers2/11.svg';
 import david from './jogadores/david.png';
 import sforza from './jogadores/sforza.png';
 import lucho from './jogadores/lucho.png';
-import lucca from './jogadores/lucca.png';
 import galdames from './jogadores/galdames.png';
 import leandrinho from './jogadores/leandrinho.png';
 import estrella from './jogadores/estrella.png';
@@ -72,6 +71,8 @@ import clayton from './jogadores/clayton.png';
 import hugo from './jogadores/hugo.png';
 import serjao from './jogadores/serjao.png';
 import couto from './jogadores/couto.png';
+import texeira from './jogadores/texeira.png';
+import souza from './jogadores/souza.png';
 
 const containerStyle = {
   width: '1550px',
@@ -118,7 +119,7 @@ const playersList = [
   { id: 18, nome: "Lucas E.", imagem: lucase, hasBorder: true, hasNumber: true, number: 58},
   { id: 19, nome: "Zé Gabriel", imagem: zegabriel, hasBorder: true, hasNumber: true, number: 23},
   { id: 61, nome: "Hugo", imagem: hugo, hasBorder: true, hasNumber: true, number: 25}, 
-  /*{ id: 65, nome: "De Lucca", imagem: lucca, hasBorder: true, hasNumber: true, number: 5},*/
+  { id: 65, nome: "Souza", imagem: souza, hasBorder: true, hasNumber: true, number: 5},
   { id: 15, nome: "JP Murilo", imagem: jpm , hasBorder: true, hasNumber: true, number: 98},
   { id: 17, nome: "M. Cocão", imagem: cocao , hasBorder: true, hasNumber: true, number: 85},
   { id: 67, nome: "Galdames", imagem: galdames, hasBorder: true, hasNumber: true, number: 27},
@@ -137,6 +138,7 @@ const playersList = [
   { id: 33, nome: "David", imagem: david, hasBorder: true, hasNumber: true, number: 7},
   { id: 68, nome: "Clayton", imagem: clayton, hasBorder: true, hasNumber: true, number: 9},
   { id: 63, nome: "Coutinho", imagem: couto, hasBorder: true, hasNumber: true, number: 11},
+  { id: 70, nome: "Texeira", imagem: texeira, hasBorder: true, hasNumber: true, number:17},
   { id: 66, nome: "André Silva", imagem: andres, hasBorder: true, hasNumber: false, number: 11},
   { id: 34, nome: "Klopp", imagem: serjao, hasBorder: true, hasNumber: false, number: 11},
   { id: 35, nome: "", imagem: semft,hasBorder: false, hasNumber: false, number: 0},
