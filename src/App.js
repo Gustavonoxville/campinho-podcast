@@ -73,6 +73,7 @@ import serjao from './jogadores/serjao.png';
 import couto from './jogadores/couto.png';
 import texeira from './jogadores/texeira.png';
 import souza from './jogadores/souza.png';
+import gb from './jogadores/gb.png';
 
 const containerStyle = {
   width: '1550px',
@@ -101,8 +102,8 @@ const playersList = [
   { id: 1, nome: "Jardim", imagem: jardim, hasBorder: true, hasNumber: true, number: 1},
   { id: 2, nome: "Keiller", imagem: keiller , hasBorder: true, hasNumber: true, number: 13},
   { id: 3, nome: "Pablo", imagem: pablo, hasBorder: true, hasNumber: true, number: 37},
-  { id: 64, nome: "Lyncon", imagem: ly, hasBorder: true, hasNumber: true, number: 40},
-  { id: 16, nome: "Luiz Gustavo", imagem: lgus, hasBorder: true, hasNumber: true, number: 44},
+  { id: 64, nome: "Lyncon", imagem: ly, hasBorder: true, hasNumber: true, number: 33},
+  { id: 16, nome: "L. Gustavo", imagem: lgus, hasBorder: true, hasNumber: true, number: 44},
   { id: 4, nome: "Maicon", imagem: maicon, hasBorder: true, hasNumber: true, number: 4},
   { id: 5, nome: "J. Victor", imagem: jv, hasBorder: true, hasNumber: true, number: 38},
   { id: 7, nome: "Léo", imagem: leo , hasBorder: true, hasNumber: true, number: 3},
@@ -138,7 +139,8 @@ const playersList = [
   { id: 33, nome: "David", imagem: david, hasBorder: true, hasNumber: true, number: 7},
   { id: 68, nome: "Clayton", imagem: clayton, hasBorder: true, hasNumber: true, number: 9},
   { id: 63, nome: "Coutinho", imagem: couto, hasBorder: true, hasNumber: true, number: 11},
-  { id: 70, nome: "Texeira", imagem: texeira, hasBorder: true, hasNumber: true, number:17},
+  { id: 70, nome: "Texeira", imagem: texeira, hasBorder: true, hasNumber: true, number:90},
+  { id: 71, nome: "GB", imagem: gb, hasBorder: true, hasNumber: true, number:97},
   { id: 66, nome: "André Silva", imagem: andres, hasBorder: true, hasNumber: false, number: 11},
   { id: 34, nome: "Klopp", imagem: serjao, hasBorder: true, hasNumber: false, number: 11},
   { id: 35, nome: "", imagem: semft,hasBorder: false, hasNumber: false, number: 0},
