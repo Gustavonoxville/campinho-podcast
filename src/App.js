@@ -74,6 +74,7 @@ import couto from './jogadores/couto.png';
 import texeira from './jogadores/texeira.png';
 import souza from './jogadores/souza.png';
 import gb from './jogadores/gb.png';
+import emerson from './jogadores/emerson.png';
 
 const containerStyle = {
   width: '1550px',
@@ -137,7 +138,8 @@ const playersList = [
   { id: 31, nome: "Rayan", imagem: rayan, hasBorder: true, hasNumber: true, number: 77},
   { id: 32, nome: "Erick M.", imagem: erick, hasBorder: true, hasNumber: true, number: 16},
   { id: 33, nome: "David", imagem: david, hasBorder: true, hasNumber: true, number: 7},
-  { id: 68, nome: "Clayton", imagem: clayton, hasBorder: true, hasNumber: true, number: 9},
+  /*{ id: 68, nome: "Clayton", imagem: clayton, hasBorder: true, hasNumber: true, number: 9},*/
+  { id: 68, nome: "Emerson", imagem: emerson, hasBorder: true, hasNumber: true, number: 17},
   { id: 63, nome: "Coutinho", imagem: couto, hasBorder: true, hasNumber: true, number: 11},
   { id: 70, nome: "Texeira", imagem: texeira, hasBorder: true, hasNumber: true, number:90},
   { id: 71, nome: "GB", imagem: gb, hasBorder: true, hasNumber: true, number:97},
