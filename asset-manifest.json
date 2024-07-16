@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/campinho-podcast/static/css/main.e6c13ad2.css",
-    "main.js": "/campinho-podcast/static/js/main.cea299cd.js",
+    "main.js": "/campinho-podcast/static/js/main.7cbb9099.js",
     "static/js/787.bf6eab5d.chunk.js": "/campinho-podcast/static/js/787.bf6eab5d.chunk.js",
     "static/media/lucho.png": "/campinho-podcast/static/media/lucho.b8d3fe86354e0881c7f2.png",
     "static/media/couto.png": "/campinho-podcast/static/media/couto.3f564fbfc2da832af9e2.png",
@@ -13,8 +13,8 @@
     "static/media/payet.png": "/campinho-podcast/static/media/payet.b0e8ec0928cb5338d43e.png",
     "static/media/ly.png": "/campinho-podcast/static/media/ly.8f659b4d509f8ad7a5e2.png",
     "static/media/souza.png": "/campinho-podcast/static/media/souza.810e25920b1496f6caa9.png",
+    "static/media/gb.png": "/campinho-podcast/static/media/gb.4eb298c70d2ae014691d.png",
     "static/media/mumu.png": "/campinho-podcast/static/media/mumu.e0667e42259e8b3e32a0.png",
-    "static/media/gb.png": "/campinho-podcast/static/media/gb.3ef5a50ce4a14dcc0f52.png",
     "static/media/serjao.png": "/campinho-podcast/static/media/serjao.576212e2ba3528c3567d.png",
     "static/media/jpm.png": "/campinho-podcast/static/media/jpm.3836b5ec856e1471bf9d.png",
     "static/media/medel.png": "/campinho-podcast/static/media/medel.4b4c0a60e55dc3bd6fb1.png",
@@ -28,6 +28,7 @@
     "static/media/keiller.png": "/campinho-podcast/static/media/keiller.919d04700a9750701cfd.png",
     "static/media/jardim.png": "/campinho-podcast/static/media/jardim.ae28a7280cef59e0c186.png",
     "static/media/field2.svg": "/campinho-podcast/static/media/field2.d758d07c73aa9d1ee3eb7636466f75ee.svg",
+    "static/media/emerson.png": "/campinho-podcast/static/media/emerson.72332a97ffa307161761.png",
     "static/media/sforza.png": "/campinho-podcast/static/media/sforza.1ef418a3f7395a19fa6f.png",
     "static/media/galdames.png": "/campinho-podcast/static/media/galdames.3bcc710c9afd80f1e54b.png",
     "static/media/juliao.png": "/campinho-podcast/static/media/juliao.1aba7411dab6644c4bd6.png",
@@ -64,11 +65,11 @@
     "static/media/8.svg": "/campinho-podcast/static/media/8.3e387385a95b44485c6a957c13600060.svg",
     "static/media/9.svg": "/campinho-podcast/static/media/9.487107596d399f5bdf79407893a200b0.svg",
     "main.e6c13ad2.css.map": "/campinho-podcast/static/css/main.e6c13ad2.css.map",
-    "main.cea299cd.js.map": "/campinho-podcast/static/js/main.cea299cd.js.map",
+    "main.7cbb9099.js.map": "/campinho-podcast/static/js/main.7cbb9099.js.map",
     "787.bf6eab5d.chunk.js.map": "/campinho-podcast/static/js/787.bf6eab5d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.cea299cd.js"
+    "static/js/main.7cbb9099.js"
   ]
 }
