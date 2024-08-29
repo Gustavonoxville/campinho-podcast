@@ -144,7 +144,7 @@ const playersList = [
   { id: 63, nome: "Coutinho", imagem: couto, hasBorder: true, hasNumber: true, number: 11},
   { id: 70, nome: "Texeira", imagem: texeira, hasBorder: true, hasNumber: true, number:90},
   { id: 71, nome: "GB", imagem: gb, hasBorder: true, hasNumber: true, number:19},
-  { id: 72, nome: "Jean M.", imagem: jean, hasBorder: true, hasNumber: true, number: 22},
+  { id: 72, nome: "Jean David", imagem: jean, hasBorder: true, hasNumber: true, number: 21},
   /*{ id: 66, nome: "André Silva", imagem: andres, hasBorder: true, hasNumber: false, number: 11},*/
   /*{ id: 34, nome: "Klopp", imagem: serjao, hasBorder: true, hasNumber: false, number: 11},*/
   { id: 35, nome: "", imagem: semft,hasBorder: false, hasNumber: false, number: 0},
