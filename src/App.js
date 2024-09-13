@@ -2,6 +2,7 @@ import React, { useState , useEffect } from 'react';
 import { DndProvider, useDrag, useDrop } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
 import campoImage from './field2.svg';
+import campoImage2 from './field4.svg';
 
 import capasso from './jogadores/capasso.png';
 import jv from './jogadores/jv.png';
@@ -130,7 +131,7 @@ const playersList = [
   { id: 29, nome: "Sforza", imagem: sforza, hasBorder: true, hasNumber: true, number: 20},
   { id: 62, nome: "Estrella", imagem: estrella, hasBorder: true, hasNumber: true, number: 14},
   { id: 20, nome: "Payet", imagem: payet, hasBorder: true, hasNumber: true, number: 10},
-  { id: 73, nome: "Maxime", imagem: max, hasBorder: true, hasNumber: true, number: 80},
+  { id: 73, nome: "Maxime", imagem: max, hasBorder: true, hasNumber: true, number: 26},
   /*{ id: 21, nome: "Praxedes", imagem: praxedes, hasBorder: true, hasNumber: true, number: 21},*/
   { id: 22, nome: "Paulinho", imagem: paulinho, hasBorder: true, hasNumber: true, number: 18},
   { id: 23, nome: "Jair", imagem: jair, hasBorder: true, hasNumber: true, number: 8},
@@ -279,7 +280,7 @@ const DraggablePlayer = ({ id, left, top, name, image, hasBorder, hasNumber, num
   );
 };
 
-const Field = () => {
+const Field = ({ campoImagem }) => {
   const [players, setPlayers] = useState(playerData);
 
   const [, drop] = useDrop({
@@ -305,7 +306,7 @@ const Field = () => {
       ref={drop}
       style={{
         ...containerStyle,
-        backgroundImage: `url(${campoImage})`,
+        backgroundImage: `url(${campoImagem})`,
         backgroundSize: 'cover',
       }}
     >
@@ -321,15 +322,36 @@ const Field = () => {
 };
 
 function App() {
+
+  const [campoImagem, setCampoImagem] = useState(campoImage);
+
   useEffect(() => {
     document.title = "CampinhoPodcast"; 
     document.body.style.background = "rgb(0, 96, 0)";
   }, []);
 
+ const trocarImagem = () => {
+    setCampoImagem((prevImagem) => (prevImagem === campoImage ? campoImage2 : campoImage));
+  };
+
   return (
      <div className="App" style={{ backgroundColor: 'rgb(0, 96, 0)', margin: 0, padding: 0, overflow: 'hidden' }}>
       <DndProvider backend={HTML5Backend}>
-        <Field />
+        <Field campoImagem={campoImagem}/>
+        <button
+          onClick={trocarImagem}
+          style={{
+            position: 'absolute',
+            top: '0px',
+            left: '0px',
+            fontSize: '15px',
+            background: 'transparent',
+            border: 'none',
+            cursor: 'pointer',
+          }}
+        >
+          🔄
+        </button>
       </DndProvider>
     </div>
   );
