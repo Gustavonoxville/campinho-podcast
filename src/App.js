@@ -1,7 +1,7 @@
 import React, { useState , useEffect } from 'react';
 import { DndProvider, useDrag, useDrop } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
-import campoImage from './field55.svg';
+import campoImage from './field6.svg';
 
 import capasso from './jogadores/capasso.png';
 import jv from './jogadores/jv.png';
@@ -78,8 +78,8 @@ const containerStyle = {
 };
 
 const playerStyle = {
-  width: '50px',
-  height: '50px',
+  width: '30px',
+  height: '30px',
   borderRadius: '50%',
   position: 'absolute',
   cursor: 'move',
@@ -175,7 +175,7 @@ const playersList = [
 const playerData = () => {
   const screenWidth = 1920; // Largura do container
   const halfScreenWidth = screenWidth / 2; // Metade da tela
-  const playerWidth = 105; // Largura de cada jogador (ajustada para espaçamento)
+  const playerWidth = 100; // Largura de cada jogador (ajustada para espaçamento)
   const startLeft = 60; // Posição inicial na lateral esquerda
   const startTop = 60; // Posição inicial no topo
   const rowHeight = 150; // Distância entre as linhas de jogadores
@@ -221,8 +221,8 @@ const DraggablePlayer = ({ id, left, top, name, image, hasBorder, hasNumber, num
 
   const playerImageContainerStyle = {
     position: 'relative', // Adicione position relative para que o número seja posicionado absolutamente em relação a este contêiner
-    width: '102px',
-    height: '102px',
+    width: '80px',
+    height: '80px',
     borderRadius: '50%',
     overflow: 'hidden',
     border: hasBorder ? '2px solid #373737' : 'none', // Adicione a borda aqui
@@ -234,8 +234,8 @@ const DraggablePlayer = ({ id, left, top, name, image, hasBorder, hasNumber, num
     position: 'absolute',
     bottom: '-15px',
     right: -25,
-    width: '30px', // Defina um tamanho fixo para o contêiner do número
-    height: '30px', // Defina um tamanho fixo para o contêiner do número
+    width: '25px', // Defina um tamanho fixo para o contêiner do número
+    height: '25px', // Defina um tamanho fixo para o contêiner do número
     borderRadius: '50%',
     overflow: 'hidden',
     backgroundColor: 'white',
