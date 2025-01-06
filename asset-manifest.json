@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/campinho-podcast/static/css/main.e6c13ad2.css",
-    "main.js": "/campinho-podcast/static/js/main.33dc56f6.js",
+    "main.js": "/campinho-podcast/static/js/main.5418279f.js",
     "static/js/787.bf6eab5d.chunk.js": "/campinho-podcast/static/js/787.bf6eab5d.chunk.js",
     "static/media/couto.png": "/campinho-podcast/static/media/couto.3f564fbfc2da832af9e2.png",
     "static/media/jv.png": "/campinho-podcast/static/media/jv.0017ea987134550f6b03.png",
@@ -21,8 +21,8 @@
     "static/media/gb.png": "/campinho-podcast/static/media/gb.4eb298c70d2ae014691d.png",
     "static/media/jpm.png": "/campinho-podcast/static/media/jpm.3836b5ec856e1471bf9d.png",
     "static/media/jean.png": "/campinho-podcast/static/media/jean.961f793b710e24e0ea71.png",
+    "static/media/field6.svg": "/campinho-podcast/static/media/field6.b117b70932981ff606ecb53cdcb82cba.svg",
     "static/media/cocao.png": "/campinho-podcast/static/media/cocao.6b03278dd22c876dd449.png",
-    "static/media/field55.svg": "/campinho-podcast/static/media/field55.6cffba55c2bc397b12aa9dfd4db22363.svg",
     "static/media/hugo.png": "/campinho-podcast/static/media/hugo.d4e6a07f46ce0eb7253a.png",
     "static/media/adson.png": "/campinho-podcast/static/media/adson.5285ce73150f18e82f96.png",
     "static/media/estrella.png": "/campinho-podcast/static/media/estrella.6de1731bbdb9a266f36b.png",
@@ -58,11 +58,11 @@
     "static/media/8.svg": "/campinho-podcast/static/media/8.3e387385a95b44485c6a957c13600060.svg",
     "static/media/9.svg": "/campinho-podcast/static/media/9.487107596d399f5bdf79407893a200b0.svg",
     "main.e6c13ad2.css.map": "/campinho-podcast/static/css/main.e6c13ad2.css.map",
-    "main.33dc56f6.js.map": "/campinho-podcast/static/js/main.33dc56f6.js.map",
+    "main.5418279f.js.map": "/campinho-podcast/static/js/main.5418279f.js.map",
     "787.bf6eab5d.chunk.js.map": "/campinho-podcast/static/js/787.bf6eab5d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.33dc56f6.js"
+    "static/js/main.5418279f.js"
   ]
 }
