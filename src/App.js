@@ -67,6 +67,7 @@ import brunol from './jogadores/brunol.png';
 import alegria from './jogadores/alegria.png';
 import oliveira from './jogadores/oliveira.png';
 import freitas from './jogadores/freitas.png';
+import pr from './jogadores/pr.png';
 
 
 const containerStyle = {
@@ -105,9 +106,9 @@ const playersList = [
   { id: 16, nome: "L. Gustavo", imagem: lgus, hasBorder: true, hasNumber: true, number: 44},
   /*{ id: 8, nome: "Zé Vitor", imagem: zevitor, hasBorder: true, hasNumber: true, number: 44},*/
   /*{ id: 9, nome: "Miranda", imagem: miranda , hasBorder: true, hasNumber: true, number: 35},*/
-  /*{ id: 12, nome: "R. Rojas", imagem: rojas, hasBorder: true, hasNumber: true, number: 32},*/
   { id: 10, nome: "Puma", imagem: puma, hasBorder: true, hasNumber: true, number: 2},
   { id: 11, nome: "PH", imagem: ph , hasBorder: true, hasNumber: true, number: 96},
+  { id: 12, nome: "Paulo Ricardo", imagem: pr, hasBorder: true, hasNumber: true, number: 32},
   { id: 14, nome: "Piton", imagem: piton, hasBorder: true, hasNumber: true, number: 6},
   { id: 24, nome: "Victor L.", imagem: victorl, hasBorder: true, hasNumber: true, number: 12},
   { id: 69, nome: "Leandrinho", imagem: leandrinho, hasBorder: true, hasNumber: true, number: 66},
