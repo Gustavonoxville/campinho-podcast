@@ -22,7 +22,6 @@ import rayan from './jogadores/rayan.png';
 import jpm from './jogadores/jpm.png';
 import tche from './jogadores/tche.png';
 import adson from './jogadores/adson.png';
-import serginho from './jogadores/serginho.png';
 import vegetti from './jogadores/vegetti.png';
 import zegabriel from './jogadores/zegabriel.png';
 import semft from './jogadores/semft.png';
@@ -59,7 +58,6 @@ import couto from './jogadores/couto.png';
 import texeira from './jogadores/texeira.png';
 import souza from './jogadores/souza.png';
 import gb from './jogadores/gb.png';
-import emerson from './jogadores/emerson.png';
 import jean from './jogadores/jean.png';
 import max from './jogadores/max.png';
 import riquelme from './jogadores/riquelme.png';
@@ -69,6 +67,7 @@ import oliveira from './jogadores/oliveira.png';
 import freitas from './jogadores/freitas.png';
 import pr from './jogadores/pr.png';
 import lemos from './jogadores/lemos.png';
+import zuka from './jogadores/zuka.png';
 
 
 const containerStyle = {
@@ -135,12 +134,12 @@ const playersList = [
   /*{ id: 32, nome: "Erick M.", imagem: erick, hasBorder: true, hasNumber: true, number: 16},*/
   /*{ id: 33, nome: "David", imagem: david, hasBorder: true, hasNumber: true, number: "❌"},*/
   { id: 68, nome: "Alegria", imagem: alegria, hasBorder: true, hasNumber: true, number: 16},
-  { id: 74, nome: "Emerson", imagem: emerson, hasBorder: true, hasNumber: true, number: 17},
+  { id: 74, nome: "Zuccarello", imagem: zuka, hasBorder: true, hasNumber: true, number: 30},
   { id: 70, nome: "Texeira", imagem: texeira, hasBorder: true, hasNumber: true, number:90},
   { id: 25, nome: "Bruno L.", imagem: brunol , hasBorder: true, hasNumber: true, number: 72},
   { id: 71, nome: "GB", imagem: gb, hasBorder: true, hasNumber: true, number:19},
   { id: 72, nome: "Jean David", imagem: jean, hasBorder: true, hasNumber: true, number: 21},
-  { id: 28, nome: "Serginho", imagem: serginho, hasBorder: true, hasNumber: true, number: 70},
+  /*{ id: 28, nome: "Serginho", imagem: serginho, hasBorder: true, hasNumber: true, number: 70},*/
   /*{ id: 66, nome: "André Silva", imagem: andres, hasBorder: true, hasNumber: false, number: 11},*/
   /*{ id: 34, nome: "Klopp", imagem: serjao, hasBorder: true, hasNumber: false, number: 11},*/
   { id: 35, nome: "", imagem: semft,hasBorder: false, hasNumber: false, number: 0},
