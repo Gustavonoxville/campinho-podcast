@@ -68,6 +68,10 @@ import freitas from './jogadores/freitas.png';
 import pr from './jogadores/pr.png';
 import lemos from './jogadores/lemos.png';
 import zuka from './jogadores/zuka.png';
+import nuno from './jogadores/nuno.png';
+import loide from './jogadores/loide.png';
+import garre from './jogadores/garre.png';
+import euder from './jogadores/euder.png';
 
 
 const containerStyle = {
@@ -116,6 +120,7 @@ const playersList = [
   { id: 13, nome: "Riquelme", imagem: riquelme, hasBorder: true, hasNumber: true, number: 36},
   { id: 18, nome: "Lucas E.", imagem: lucase, hasBorder: true, hasNumber: true, number: 58},
   { id: 19, nome: "Zé Gabriel", imagem: zegabriel, hasBorder: true, hasNumber: true, number: 23},
+  { id: 79, nome: "Euder", imagem: euder, hasBorder: true, hasNumber: true, number: 70},
   { id: 61, nome: "Hugo M.", imagem: hugo, hasBorder: true, hasNumber: true, number: 25}, 
   { id: 15, nome: "JP Murilo", imagem: jpm , hasBorder: true, hasNumber: true, number: 98},
   { id: 17, nome: "M. Cocão", imagem: cocao , hasBorder: true, hasNumber: true, number: 85},
@@ -133,6 +138,10 @@ const playersList = [
   { id: 31, nome: "Rayan", imagem: rayan, hasBorder: true, hasNumber: true, number: 77},
   /*{ id: 32, nome: "Erick M.", imagem: erick, hasBorder: true, hasNumber: true, number: 16},*/
   /*{ id: 33, nome: "David", imagem: david, hasBorder: true, hasNumber: true, number: "❌"},*/
+  { id: 76, nome: "Garré", imagem: garre, hasBorder: true, hasNumber: true, number: 15},
+  { id: 77, nome: "Moreira", imagem: nuno, hasBorder: true, hasNumber: true, number: 79},
+  { id: 78, nome: "Augusto", imagem: loide, hasBorder: true, hasNumber: true, number: 27},
+  { id: 33, nome: "David", imagem: david, hasBorder: true, hasNumber: true, number: 7},
   { id: 68, nome: "Alegria", imagem: alegria, hasBorder: true, hasNumber: true, number: 16},
   { id: 74, nome: "Zuccarello", imagem: zuka, hasBorder: true, hasNumber: true, number: 30},
   { id: 70, nome: "Texeira", imagem: texeira, hasBorder: true, hasNumber: true, number:90},
@@ -147,7 +156,7 @@ const playersList = [
   { id: 37, nome: "", imagem: semft,hasBorder: false, hasNumber: false, number: 0},
   { id: 38, nome: "", imagem: semft,hasBorder: false, hasNumber: false, number: 0},
   { id: 30, nome: "", imagem: semft,hasBorder: false, hasNumber: false, number: 0},
-  { id: 33, nome: "David", imagem: david, hasBorder: true, hasNumber: true, number: "❌"},
+ 
   /*{ id: 39, nome: "", imagem: c1, hasBorder: true, hasNumber: false, number: 0},
   { id: 40, nome: "", imagem: c2, hasBorder: true, hasNumber: false, number: 0},
   { id: 41, nome: "", imagem: c3, hasBorder: true, hasNumber: false, number: 0},
