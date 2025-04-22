@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/campinho-podcast/static/css/main.e6c13ad2.css",
-    "main.js": "/campinho-podcast/static/js/main.305a7a51.js",
+    "main.js": "/campinho-podcast/static/js/main.aa45b756.js",
     "static/js/787.bf6eab5d.chunk.js": "/campinho-podcast/static/js/787.bf6eab5d.chunk.js",
     "static/media/fuzato.png": "/campinho-podcast/static/media/fuzato.de8e18c3164f6d4446fa.png",
     "static/media/lemos.png": "/campinho-podcast/static/media/lemos.2a3d8d5505de0b8646d0.png",
@@ -62,11 +62,11 @@
     "static/media/8.svg": "/campinho-podcast/static/media/8.3e387385a95b44485c6a957c13600060.svg",
     "static/media/9.svg": "/campinho-podcast/static/media/9.487107596d399f5bdf79407893a200b0.svg",
     "main.e6c13ad2.css.map": "/campinho-podcast/static/css/main.e6c13ad2.css.map",
-    "main.305a7a51.js.map": "/campinho-podcast/static/js/main.305a7a51.js.map",
+    "main.aa45b756.js.map": "/campinho-podcast/static/js/main.aa45b756.js.map",
     "787.bf6eab5d.chunk.js.map": "/campinho-podcast/static/js/787.bf6eab5d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.305a7a51.js"
+    "static/js/main.aa45b756.js"
   ]
 }
