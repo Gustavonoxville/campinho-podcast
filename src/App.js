@@ -128,7 +128,7 @@ const playersList = [
   { id: 29, nome: "Sforza", imagem: sforza, hasBorder: true, hasNumber: true, number: 20},
   { id: 62, nome: "Estrella", imagem: estrella, hasBorder: true, hasNumber: true, number: 14},
   { id: 20, nome: "Payet", imagem: payet, hasBorder: true, hasNumber: true, number: 10},
-  { id: 73, nome: "Maxime", imagem: max, hasBorder: true, hasNumber: true, number: 26},
+  /*{ id: 73, nome: "Maxime", imagem: max, hasBorder: true, hasNumber: true, number: 26},*/
   { id: 21, nome: "Tchê Tchê", imagem: tche, hasBorder: true, hasNumber: true, number: 3},
   { id: 22, nome: "Paulinho", imagem: paulinho, hasBorder: true, hasNumber: true, number: 18},
   { id: 23, nome: "Jair", imagem: jair, hasBorder: true, hasNumber: true, number: 8},
@@ -139,8 +139,8 @@ const playersList = [
   /*{ id: 32, nome: "Erick M.", imagem: erick, hasBorder: true, hasNumber: true, number: 16},*/
   /*{ id: 33, nome: "David", imagem: david, hasBorder: true, hasNumber: true, number: "❌"},*/
   { id: 76, nome: "Garré", imagem: garre, hasBorder: true, hasNumber: true, number: 15},
-  { id: 77, nome: "Moreira", imagem: nuno, hasBorder: true, hasNumber: true, number: 17},
-  { id: 78, nome: "Augusto", imagem: loide, hasBorder: true, hasNumber: true, number: 45},
+  { id: 77, nome: "Nuno", imagem: nuno, hasBorder: true, hasNumber: true, number: 17},
+  { id: 78, nome: "Loide", imagem: loide, hasBorder: true, hasNumber: true, number: 45},
   { id: 33, nome: "David", imagem: david, hasBorder: true, hasNumber: true, number: 7},
   { id: 68, nome: "Alegria", imagem: alegria, hasBorder: true, hasNumber: true, number: 16},
   { id: 74, nome: "Zuccarello", imagem: zuka, hasBorder: true, hasNumber: true, number: 30},
