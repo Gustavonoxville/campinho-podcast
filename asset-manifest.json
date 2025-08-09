@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/campinho-podcast/static/css/main.e6c13ad2.css",
-    "main.js": "/campinho-podcast/static/js/main.aae1992a.js",
+    "main.js": "/campinho-podcast/static/js/main.18ce9e9f.js",
     "static/js/787.bf6eab5d.chunk.js": "/campinho-podcast/static/js/787.bf6eab5d.chunk.js",
     "static/media/tm.png": "/campinho-podcast/static/media/tm.09dd1510fa5835416b33.png",
     "static/media/fuzato.png": "/campinho-podcast/static/media/fuzato.de8e18c3164f6d4446fa.png",
@@ -32,7 +32,7 @@
     "static/media/gb.png": "/campinho-podcast/static/media/gb.4eb298c70d2ae014691d.png",
     "static/media/jpm.png": "/campinho-podcast/static/media/jpm.3836b5ec856e1471bf9d.png",
     "static/media/jean.png": "/campinho-podcast/static/media/jean.961f793b710e24e0ea71.png",
-    "static/media/field6.svg": "/campinho-podcast/static/media/field6.b117b70932981ff606ecb53cdcb82cba.svg",
+    "static/media/field6.svg": "/campinho-podcast/static/media/field6.b1e2557f5068c28394b50624290d5a1c.svg",
     "static/media/cocao.png": "/campinho-podcast/static/media/cocao.6b03278dd22c876dd449.png",
     "static/media/hugo.png": "/campinho-podcast/static/media/hugo.d4e6a07f46ce0eb7253a.png",
     "static/media/adson.png": "/campinho-podcast/static/media/adson.5285ce73150f18e82f96.png",
@@ -51,23 +51,23 @@
     "static/media/riquelme.png": "/campinho-podcast/static/media/riquelme.4d103917e814ecd1b622.png",
     "static/media/zegabriel.png": "/campinho-podcast/static/media/zegabriel.570105b02cee08f91ce7.png",
     "index.html": "/campinho-podcast/index.html",
-    "static/media/11.svg": "/campinho-podcast/static/media/11.7db82b520d829d026ad0d2b3ae63eb76.svg",
-    "static/media/1.svg": "/campinho-podcast/static/media/1.5b3c3a9691cff5d7760e775a81b2e8f5.svg",
-    "static/media/10.svg": "/campinho-podcast/static/media/10.ee0b9cd292186e9ed1c5e23ab58e5fd4.svg",
-    "static/media/2.svg": "/campinho-podcast/static/media/2.b03b2c7ea42af779270b4efd875eeb71.svg",
-    "static/media/3.svg": "/campinho-podcast/static/media/3.841ac087bfbba98f7a53084f34c6cb85.svg",
-    "static/media/4.svg": "/campinho-podcast/static/media/4.4c0fcc87b14c944d184b396ca4721386.svg",
-    "static/media/5.svg": "/campinho-podcast/static/media/5.07927902452179c543af337f954f963d.svg",
-    "static/media/6.svg": "/campinho-podcast/static/media/6.3bb2dccb4e76e643d00adae81b0614e5.svg",
-    "static/media/7.svg": "/campinho-podcast/static/media/7.76c7053afd6abf3431c407c1dc6340b5.svg",
-    "static/media/8.svg": "/campinho-podcast/static/media/8.3e387385a95b44485c6a957c13600060.svg",
-    "static/media/9.svg": "/campinho-podcast/static/media/9.487107596d399f5bdf79407893a200b0.svg",
+    "static/media/11.svg": "/campinho-podcast/static/media/11.793261217aade5d48af834a9c9cc17cc.svg",
+    "static/media/1.svg": "/campinho-podcast/static/media/1.74d9d8ccc0a00705573465eb160a7b7e.svg",
+    "static/media/10.svg": "/campinho-podcast/static/media/10.c87a7b6541e027468cf561d44ced2135.svg",
+    "static/media/2.svg": "/campinho-podcast/static/media/2.81917034d23771bb341472ceb33012f6.svg",
+    "static/media/3.svg": "/campinho-podcast/static/media/3.4beb0bd913431b2e5a51828cfab5f829.svg",
+    "static/media/4.svg": "/campinho-podcast/static/media/4.235a39ba09f0c2ccf692eb1f3fc8247f.svg",
+    "static/media/5.svg": "/campinho-podcast/static/media/5.6d609681d591c50ca10168edf01c326c.svg",
+    "static/media/6.svg": "/campinho-podcast/static/media/6.8598ad78a1600d226d3a26e971d5f69a.svg",
+    "static/media/7.svg": "/campinho-podcast/static/media/7.06e0ad7ee764fc7e56277cfd9e688964.svg",
+    "static/media/8.svg": "/campinho-podcast/static/media/8.fe6a0c1efd183375d3ef381e94fdf203.svg",
+    "static/media/9.svg": "/campinho-podcast/static/media/9.d3c44000eee41afcbbd277b3a490e903.svg",
     "main.e6c13ad2.css.map": "/campinho-podcast/static/css/main.e6c13ad2.css.map",
-    "main.aae1992a.js.map": "/campinho-podcast/static/js/main.aae1992a.js.map",
+    "main.18ce9e9f.js.map": "/campinho-podcast/static/js/main.18ce9e9f.js.map",
     "787.bf6eab5d.chunk.js.map": "/campinho-podcast/static/js/787.bf6eab5d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.aae1992a.js"
+    "static/js/main.18ce9e9f.js"
   ]
 }
