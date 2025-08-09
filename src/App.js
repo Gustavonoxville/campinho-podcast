@@ -109,7 +109,7 @@ const playersList = [
   { id: 4, nome: "Freitas", imagem: freitas, hasBorder: true, hasNumber: true, number: 43},
   { id: 7, nome: "Oliveira", imagem: oliveira , hasBorder: true, hasNumber: true, number: 29},
    /*{ id: 65, nome: "Souza", imagem: souza, hasBorder: true, hasNumber: true, number: 5},*/
-  { id: 64, nome: "Lyncon", imagem: ly, hasBorder: true, hasNumber: true, number: 33},
+  /*{ id: 64, nome: "Lyncon", imagem: ly, hasBorder: true, hasNumber: true, number: 33},*/
   /*{ id: 8, nome: "Zé Vitor", imagem: zevitor, hasBorder: true, hasNumber: true, number: 44},*/
   /*{ id: 9, nome: "Miranda", imagem: miranda , hasBorder: true, hasNumber: true, number: 35},*/
   { id: 10, nome: "Puma", imagem: puma, hasBorder: true, hasNumber: true, number: 2},
