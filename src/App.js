@@ -3,18 +3,13 @@ import { DndProvider, useDrag, useDrop } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
 import campoImage from './field6.svg';
 
-import capasso from './jogadores/capasso.png';
-import jv from './jogadores/jv.png';
 import cocao from './jogadores/cocao.png';
 import pablo from './jogadores/pablo.png';
 import fuzato from './jogadores/fuzato.png';
 import jair from './jogadores/jair.png';
 import jardim from './jogadores/jardim.png';
-import lgus from './jogadores/lg.png';
 import ly from './jogadores/ly.png';
 import paulinho from './jogadores/paulinho.png';
-import payet from './jogadores/payet.png';
-import lucca from './jogadores/lucca.png';
 import ph from './jogadores/ph.png';
 import piton from './jogadores/piton.png';
 import puma from './jogadores/puma.png';
@@ -23,46 +18,21 @@ import jpm from './jogadores/jpm.png';
 import tche from './jogadores/tche.png';
 import adson from './jogadores/adson.png';
 import vegetti from './jogadores/vegetti.png';
-import zegabriel from './jogadores/zegabriel.png';
+import barros from './jogadores/barros.png';
 import semft from './jogadores/semft.png';
-import c1 from './jogadores/1.svg';
-import c2 from './jogadores/2.svg';
-import c3 from './jogadores/3.svg';
-import c4 from './jogadores/4.svg';
-import c5 from './jogadores/5.svg';
-import c6 from './jogadores/6.svg';
-import c7 from './jogadores/7.svg';
-import c8 from './jogadores/8.svg';
-import c9 from './jogadores/9.svg';
-import c10 from './jogadores/10.svg';
-import c11 from './jogadores/11.svg';
-import v1 from './jogadores/numbers2/1.svg';
-import v2 from './jogadores/numbers2/2.svg';
-import v3 from './jogadores/numbers2/3.svg';
-import v4 from './jogadores/numbers2/4.svg';
-import v5 from './jogadores/numbers2/5.svg';
-import v6 from './jogadores/numbers2/6.svg';
-import v7 from './jogadores/numbers2/7.svg';
-import v8 from './jogadores/numbers2/8.svg';
-import v9 from './jogadores/numbers2/9.svg';
-import v10 from './jogadores/numbers2/10.svg';
-import v11 from './jogadores/numbers2/11.svg';
 import david from './jogadores/david.png';
 import sforza from './jogadores/sforza.png';
 import leandrinho from './jogadores/leandrinho.png';
 import estrella from './jogadores/estrella.png';
 import victorl from './jogadores/victorl.png';
-import lucase from './jogadores/lucase.png';
 import hugo from './jogadores/hugo.png';
 import couto from './jogadores/couto.png';
 import texeira from './jogadores/texeira.png';
-import souza from './jogadores/souza.png';
 import gb from './jogadores/gb.png';
 import jean from './jogadores/jean.png';
 import max from './jogadores/max.png';
 import riquelme from './jogadores/riquelme.png';
 import brunol from './jogadores/brunol.png';
-import alegria from './jogadores/alegria.png';
 import oliveira from './jogadores/oliveira.png';
 import freitas from './jogadores/freitas.png';
 import pr from './jogadores/pr.png';
@@ -73,6 +43,9 @@ import loide from './jogadores/loide.png';
 import garre from './jogadores/garre.png';
 import euder from './jogadores/euder.png';
 import tm from './jogadores/tm.png';
+import robert from './jogadores/robert.png';
+import gomez from './jogadores/gomez.png';
+
 
 
 const containerStyle = {
@@ -102,9 +75,9 @@ const playersList = [
   { id: 1, nome: "Jardim", imagem: jardim, hasBorder: true, hasNumber: true, number: 1},
   { id: 2, nome: "Fuzato", imagem: fuzato , hasBorder: true, hasNumber: true, number: 13},
   { id: 3, nome: "Pablo", imagem: pablo, hasBorder: true, hasNumber: true, number: 37},
-  { id: 5, nome: "J. Victor", imagem: jv, hasBorder: true, hasNumber: true, number: 38},
+  { id: 5, nome: "Robert", imagem: robert, hasBorder: true, hasNumber: true, number: 5},
   { id: 75, nome: "Lemos", imagem: lemos, hasBorder: true, hasNumber: true, number: 4},
-  { id: 16, nome: "L. Gustavo", imagem: lgus, hasBorder: true, hasNumber: true, number: 44},
+  /*{ id: 16, nome: "L. Gustavo", imagem: lgus, hasBorder: true, hasNumber: true, number: 44},*/
    /*{ id: 6, nome: "Capasso", imagem: capasso, hasBorder: true, hasNumber: true, number: 22},*/
   { id: 4, nome: "Freitas", imagem: freitas, hasBorder: true, hasNumber: true, number: 43},
   { id: 7, nome: "Oliveira", imagem: oliveira , hasBorder: true, hasNumber: true, number: 29},
@@ -120,9 +93,9 @@ const playersList = [
   { id: 69, nome: "Leandrinho", imagem: leandrinho, hasBorder: true, hasNumber: true, number: 66},
   { id: 13, nome: "Riquelme", imagem: riquelme, hasBorder: true, hasNumber: true, number: 36},
   /*{ id: 18, nome: "Lucas E.", imagem: lucase, hasBorder: true, hasNumber: true, number: 58},*/
-  /*{ id: 19, nome: "Zé Gabriel", imagem: zegabriel, hasBorder: true, hasNumber: true, number: 23},*/
   { id: 79, nome: "Euder", imagem: euder, hasBorder: true, hasNumber: true, number: 70},
   { id: 61, nome: "Hugo M.", imagem: hugo, hasBorder: true, hasNumber: true, number: 25}, 
+   { id: 19, nome: "Barros", imagem: barros, hasBorder: true, hasNumber: true, number: 88},
   /*{ id: 15, nome: "JP Murilo", imagem: jpm , hasBorder: true, hasNumber: true, number: 98},*/
   { id: 17, nome: "M. Cocão", imagem: cocao , hasBorder: true, hasNumber: true, number: 85},
   { id: 67, nome: "T. Mendes", imagem: tm, hasBorder: true, hasNumber: true, number: 23},
@@ -143,7 +116,7 @@ const playersList = [
   { id: 77, nome: "Nuno", imagem: nuno, hasBorder: true, hasNumber: true, number: 17},
   { id: 78, nome: "Loide", imagem: loide, hasBorder: true, hasNumber: true, number: 45},
   { id: 33, nome: "David", imagem: david, hasBorder: true, hasNumber: true, number: 7},
-  /*{ id: 68, nome: "Alegria", imagem: alegria, hasBorder: true, hasNumber: true, number: 16},*/
+  { id: 68, nome: "Gomez", imagem: gomez, hasBorder: true, hasNumber: true, number: 11},
   { id: 74, nome: "Zuccarello", imagem: zuka, hasBorder: true, hasNumber: true, number: 30},
   { id: 70, nome: "Texeira", imagem: texeira, hasBorder: true, hasNumber: true, number:90},
   { id: 25, nome: "Bruno L.", imagem: brunol , hasBorder: true, hasNumber: true, number: 72},
