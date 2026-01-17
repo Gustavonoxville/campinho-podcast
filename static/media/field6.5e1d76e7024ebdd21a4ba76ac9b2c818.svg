@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 960">
-  <rect width="1920" height="960" style="fill: rgb(37, 37, 37);" id="object-0"/>
-  <rect width="960" height="960" style="fill: rgb(37, 37, 37);" x="960" id="object-1"/>
+  <rect width="1920" height="960" style="fill: rgb(0, 102, 51);" id="object-0"/>
+  <rect width="960" height="960" style="fill: rgb(0, 102, 51);" x="960" id="object-1"/>
   <g transform="matrix(1, 0, 0, 1, 602.21106, 393.636505)">
     <g transform="matrix(0.000001, 0.803669, -0.803669, 0.000001, 296.025757, -241.23085)" style="transform-origin: 575.001px 360px;" id="object-2">
       <circle cx="534.679" cy="401.358" r="91.5" stroke="white" stroke-width="2" fill-opacity="0" style="fill: rgba(0, 128, 0, 0);"/>
