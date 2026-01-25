@@ -232,9 +232,10 @@ const DraggablePlayer = ({ id, left, top, name, image, hasBorder, hasNumber, num
 const Field = () => {
   const [players, setPlayers] = useState(playerData);
     // DESENHO
-  const [isDrawing, setIsDrawing] = useState(false);
+  const [isDrawing, setIsDrawing] = useState(false); // mouse pressionado
+  const [isDrawingEnabled, setIsDrawingEnabled] = useState(false); // lápis ativo
   const [lines, setLines] = useState([]);
-  const [color, setColor] = useState('#ff0000');
+  const [color, setColor] = useState(null);
 
   const [, drop] = useDrop({
     accept: ItemTypes.PLAYER,
@@ -257,6 +258,8 @@ const Field = () => {
   /* ---- HANDLERS DESENHO ---- */
 
   const handleMouseDown = (e) => {
+    if (!isDrawingEnabled || !color) return;
+
     setIsDrawing(true);
     const pos = e.target.getStage().getPointerPosition();
     setLines([...lines, { points: [pos.x, pos.y], color }]);
@@ -320,20 +323,20 @@ const Field = () => {
           gap: '8px',
         }}
       >
-        <button onClick={() => setLines([])}>Limpar</button>
+        <button onClick={() => {setLines([]); setColor(null); setIsDrawing(false); setIsDrawingEnabled(false);}}>Limpar</button>
         <button onClick={undoLastLine}> ↩ Desfazer</button>
-        <button onClick={() => setColor('#ff0000')}>🔴</button>
-        <button onClick={() => setColor('#ffffff')}>⚪</button>
-        <button onClick={() => setColor('#0000ff')}>🔵</button>
-        <button onClick={() => setColor('#FFD700')}>🟡</button>
-        <button onClick={() => setColor('#cf9bcc')}>🟣</button>
+        <button onClick={() => {setColor('#ff0000'); setIsDrawingEnabled(true);}}>🔴</button>
+        <button onClick={() => {setColor('#ffffff'); setIsDrawingEnabled(true);}}>⚪</button>
+        <button onClick={() => {setColor('#0000ff'); setIsDrawingEnabled(true);}}>🔵</button>
+        <button onClick={() => {setColor('#FFD700'); setIsDrawingEnabled(true);}}>🟡</button>
+        <button onClick={() => {setColor('#cf9bcc'); setIsDrawingEnabled(true);}}>🟣</button>
       </div>
 
       {/* CANVAS */}
       <Stage
         width={1920}
         height={960}
-        style={{ position: 'absolute', top: 0, left: 0, zIndex: 1 }}
+        style={{ position: 'absolute', top: 0, left: 0, zIndex: 1 ,cursor: isDrawingEnabled ? 'crosshair' : 'default'}}
         onMouseDown={handleMouseDown}
         onMousemove={handleMouseMove}
         onMouseup={handleMouseUp}
