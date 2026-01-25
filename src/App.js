@@ -2,6 +2,7 @@ import React, { useState , useEffect } from 'react';
 import { DndProvider, useDrag, useDrop } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
 import campoImage from './field6.svg';
+import { Stage, Layer, Line } from 'react-konva';
 
 import cocao from './jogadores/cocao.png';
 import pablo from './jogadores/pablo.png';
@@ -230,6 +231,10 @@ const DraggablePlayer = ({ id, left, top, name, image, hasBorder, hasNumber, num
 
 const Field = () => {
   const [players, setPlayers] = useState(playerData);
+    // DESENHO
+  const [isDrawing, setIsDrawing] = useState(false);
+  const [lines, setLines] = useState([]);
+  const [color, setColor] = useState('#ff0000');
 
   const [, drop] = useDrop({
     accept: ItemTypes.PLAYER,
@@ -249,6 +254,51 @@ const Field = () => {
     },
   });
 
+  /* ---- HANDLERS DESENHO ---- */
+
+  const handleMouseDown = (e) => {
+    setIsDrawing(true);
+    const pos = e.target.getStage().getPointerPosition();
+    setLines([...lines, { points: [pos.x, pos.y], color }]);
+  };
+
+  const handleMouseMove = (e) => {
+    if (!isDrawing) return;
+    const stage = e.target.getStage();
+    const point = stage.getPointerPosition();
+
+    let lastLine = lines[lines.length - 1];
+    lastLine.points = lastLine.points.concat([point.x, point.y]);
+
+    lines.splice(lines.length - 1, 1, lastLine);
+    setLines(lines.concat());
+  };
+
+  const handleMouseUp = () => {
+    setIsDrawing(false);
+  };
+
+  const undoLastLine = () => {
+  setLines((prev) => prev.slice(0, -1));
+ };
+
+ useEffect(() => {
+  const handleKeyDown = (e) => {
+    const isCtrlOrCmd = e.ctrlKey || e.metaKey;
+
+    if (isCtrlOrCmd && e.key.toLowerCase() === 'z') {
+      e.preventDefault(); // evita comportamento padrão do browser
+      undoLastLine();
+    }
+  };
+
+  window.addEventListener('keydown', handleKeyDown);
+
+  return () => {
+    window.removeEventListener('keydown', handleKeyDown);
+  };
+}, []);
+
   return (
     <div
       ref={drop}
@@ -258,6 +308,50 @@ const Field = () => {
         backgroundSize: 'cover',
       }}
     >
+
+      {/* CONTROLES */}
+      <div
+        style={{
+          position: 'absolute',
+          top: 0,
+          left: 10,
+          zIndex: 20,
+          display: 'flex',
+          gap: '8px',
+        }}
+      >
+        <button onClick={() => setLines([])}>Limpar</button>
+        <button onClick={undoLastLine}> ↩ Desfazer</button>
+        <button onClick={() => setColor('#ff0000')}>🔴</button>
+        <button onClick={() => setColor('#ffffff')}>⚪</button>
+        <button onClick={() => setColor('#0000ff')}>🔵</button>
+        <button onClick={() => setColor('#FFD700')}>🟡</button>
+        <button onClick={() => setColor('#cf9bcc')}>🟣</button>
+      </div>
+
+      {/* CANVAS */}
+      <Stage
+        width={1920}
+        height={960}
+        style={{ position: 'absolute', top: 0, left: 0, zIndex: 1 }}
+        onMouseDown={handleMouseDown}
+        onMousemove={handleMouseMove}
+        onMouseup={handleMouseUp}
+      >
+        <Layer>
+          {lines.map((line, i) => (
+            <Line
+              key={i}
+              points={line.points}
+              stroke={line.color}
+              strokeWidth={4}
+              lineCap="round"
+              lineJoin="round"
+            />
+          ))}
+        </Layer>
+      </Stage>
+
       {players.map((player) => (
         <div key={player.id}>
           <DraggablePlayer id={player.id} left={player.left} top={player.top} 
@@ -265,6 +359,7 @@ const Field = () => {
                            hasNumber={player.hasNumber} number={player.number} />
         </div>
       ))}
+
     </div>
   );
 };
