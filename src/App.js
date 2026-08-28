@@ -54,6 +54,7 @@ import spinelli from './jogadores/spinelli.png';
 import cuiabano from './jogadores/cuiabano.png';
 import sosa from './jogadores/sosa.png';
 import colidio from './jogadores/colidio.png';
+import duarte from './jogadores/duarte.png';
 
 
 import alison from './jogadores/alison.png';
@@ -122,7 +123,7 @@ const playersList = [
   /*{ id: 29, nome: "Estrella", imagem: estrella, hasBorder: true, hasNumber: true, number: 14},*/
   /*{ id: 31, nome: "Maxime", imagem: max, hasBorder: true, hasNumber: true, number: 26},*/
   { id: 33, nome: "Rojas", imagem: rojas, hasBorder: true, hasNumber: true, number: 10},
-  /*{ id: 35, nome: "Coutinho", imagem: couto, hasBorder: true, hasNumber: true, number: 10},*/
+  { id: 35, nome: "B Duarte", imagem: duarte, hasBorder: true, hasNumber: true, number: 19},
   { id: 30, nome: "Colidio", imagem: colidio, hasBorder: true, hasNumber: true, number: 9},
   { id: 37, nome: "Brenner", imagem: brenner, hasBorder: true, hasNumber: true, number: 20},
   { id: 39, nome: "Spinelli", imagem: spinelli, hasBorder: true, hasNumber: true, number: 77},
