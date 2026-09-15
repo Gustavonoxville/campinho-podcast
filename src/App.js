@@ -55,6 +55,8 @@ import cuiabano from './jogadores/cuiabano.png';
 import sosa from './jogadores/sosa.png';
 import colidio from './jogadores/colidio.png';
 import duarte from './jogadores/duarte.png';
+import gabriel from './jogadores/gabriel.png';
+import lescano from './jogadores/lescano.png';
 
 
 import alison from './jogadores/alison.png';
@@ -99,7 +101,7 @@ const playersList = [
   { id: 7, nome: "Saldivia", imagem: saldivia, hasBorder: true, hasNumber: true, number: 4},
   { id: 4, nome: "Robert", imagem: robert, hasBorder: true, hasNumber: true, number: 30},
   { id: 8, nome: "Freitas", imagem: freitas, hasBorder: true, hasNumber: true, number: 43},
-  /*{ id: 11, nome: "Lyncon", imagem: ly, hasBorder: true, hasNumber: true, number: 33},*/
+  { id: 11, nome: "Gabriel", imagem: gabriel, hasBorder: true, hasNumber: true, number: 55},
   /*{ id: 10, nome: "Souza", imagem: souza, hasBorder: true, hasNumber: true, number: 5},*/
   /*{ id: 12, nome: "Zé Vitor", imagem: zevitor, hasBorder: true, hasNumber: true, number: 44},*/
   /*{ id: 13, nome: "Miranda", imagem: miranda , hasBorder: true, hasNumber: true, number: 35},*/
@@ -121,7 +123,7 @@ const playersList = [
   { id: 34, nome: "Jair", imagem: jair, hasBorder: true, hasNumber: true, number: 8},
   /*{ id: 28, nome: "Sforza", imagem: sforza, hasBorder: true, hasNumber: true, number: 20},*/
   /*{ id: 29, nome: "Estrella", imagem: estrella, hasBorder: true, hasNumber: true, number: 14},*/
-  /*{ id: 31, nome: "Maxime", imagem: max, hasBorder: true, hasNumber: true, number: 26},*/
+  { id: 31, nome: "Lescano", imagem: lescano, hasBorder: true, hasNumber: true, number: 22},
   { id: 33, nome: "Rojas", imagem: rojas, hasBorder: true, hasNumber: true, number: 10},
   { id: 35, nome: "B Duarte", imagem: duarte, hasBorder: true, hasNumber: true, number: 19},
   { id: 30, nome: "Colidio", imagem: colidio, hasBorder: true, hasNumber: true, number: 9},
