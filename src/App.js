@@ -25,7 +25,6 @@ import estrella from './jogadores/estrella.png';
 import victorl from './jogadores/victorl.png';
 import hugo from './jogadores/hugo.png';
 import couto from './jogadores/couto.png';
-import gb from './jogadores/gb.png';
 import max from './jogadores/max.png';
 import brunol from './jogadores/brunol.png';
 import freitas from './jogadores/freitas.png';
@@ -38,7 +37,6 @@ import euder from './jogadores/euder.png';
 import tm from './jogadores/tm.png';
 import robert from './jogadores/robert.png';
 import gomez from './jogadores/gomez.png';
-import franca from './jogadores/franca.png';
 import cuesta from './jogadores/cuesta.png';
 import brenner from './jogadores/brenner.png';
 import rojas from './jogadores/rojas.png';
@@ -87,6 +85,7 @@ const playerStyle = {
   justifyContent: 'center',
   alignItems: 'center',
   flexDirection: 'column',
+  zIndex: 2,
 };
 
 const ItemTypes = {
@@ -181,7 +180,7 @@ const playerData = () => {
   }));
 };
 
-const DraggablePlayer = ({ id, left, top, name, image, hasBorder, hasNumber, number }) => {
+const DraggablePlayer = ({ id, left, top, name, image, hasBorder, hasNumber, number, rotation }) => {
   const [{ isDragging }, drag] = useDrag({
     type: ItemTypes.PLAYER,
     item: { id },
@@ -220,8 +219,8 @@ const DraggablePlayer = ({ id, left, top, name, image, hasBorder, hasNumber, num
 
   const playerNumberContainerStyle = {
     position: 'absolute',
-    bottom: '-15px',
-    right: -25,
+    top: '52px',
+    right: '-1px',
     width: '25px', // Defina um tamanho fixo para o contêiner do número
     height: '25px', // Defina um tamanho fixo para o contêiner do número
     borderRadius: '50%',
@@ -245,7 +244,7 @@ const DraggablePlayer = ({ id, left, top, name, image, hasBorder, hasNumber, num
 
   return (
     <div ref={drag} style={{ ...playerStyle, left, top, opacity: isDragging ? 0.5 : 1 }}>
-      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+      <div style={{ position: 'relative', width: '80px', display: 'flex', flexDirection: 'column', alignItems: 'center', transform: `rotate(${rotation}deg)` }}>
         <div style={playerImageContainerStyle}>
           <img src={image} alt={name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
         </div>
@@ -269,6 +268,7 @@ const Field = () => {
   const [isDrawingEnabled, setIsDrawingEnabled] = useState(false); // lápis ativo
   const [lines, setLines] = useState([]);
   const [color, setColor] = useState(null);
+  const [rotation, setRotation] = useState(0);
 
   const [, drop] = useDrop({
     accept: ItemTypes.PLAYER,
@@ -363,6 +363,9 @@ const Field = () => {
         <button onClick={() => {setColor('#0000ff'); setIsDrawingEnabled(true);}}>🔵</button>
         <button onClick={() => {setColor('#FFD700'); setIsDrawingEnabled(true);}}>🟡</button>
         <button onClick={() => {setColor('#cf9bcc'); setIsDrawingEnabled(true);}}>🟣</button>
+        <button onClick={() => setRotation((prev) => (prev + 90) % 360)}>
+          🔄 Rotacionar Jogador ({rotation}º)
+        </button>
       </div>
 
       {/* CANVAS */}
@@ -392,7 +395,7 @@ const Field = () => {
         <div key={player.id}>
           <DraggablePlayer id={player.id} left={player.left} top={player.top} 
                            name={player.name} image={player.image} hasBorder={player.hasBorder} 
-                           hasNumber={player.hasNumber} number={player.number} />
+                           hasNumber={player.hasNumber} number={player.number} rotation={rotation} />
         </div>
       ))}
 
